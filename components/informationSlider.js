@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
-
+import Image from "next/image";
 export default function InformationSlider() {
   const infoSlide = [
     {
@@ -94,7 +94,12 @@ export default function InformationSlider() {
             onClick={() => goToSlide(slideIndex)}
             className="text-2xl flex justify-center"
           >
-            <img className="h-[40px] " src={company[slideIndex].name}></img>
+            <Image
+              className="h-[40px] "
+              src={company[slideIndex].name}
+              width={"0"}
+              height={"0"}
+            ></Image>
           </div>
         ))}
       </div>

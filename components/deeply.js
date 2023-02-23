@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Deeply() {
   return (
     <div className="flex pt-16 pb-8 bg-[#f8f8f8] sm:flex-col-reverse md:flex-col-reverse lg:flex-row justify-around">
@@ -20,11 +21,14 @@ export default function Deeply() {
         </div>
       </div>
       <div className="pr-[90px] ">
-        <img
+        <Image
           className="w-[100%]"
           src="https://d2mk45aasx86xg.cloudfront.net/world_d650185bdd.svg"
+          width={"0"}
+          height={"0"}
+
           alt="img"
-        ></img>
+        ></Image>
       </div>
     </div>
   );
