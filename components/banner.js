@@ -1,4 +1,5 @@
 import Image from "next/image";
+import banner from '../public/image/banner.jpeg'
 export default function Banner() {
   return (
     <div className="flex justify-around sm:flex-col-reverse md:flex-col-reverse lg:flex-row">
@@ -31,7 +32,7 @@ export default function Banner() {
         </p>
       </div>
       <div className="pr-12 pt-0 justify-center">
-        <Image className="w-[500px]" src="/image/banner.jpeg" width={'0'} height={'0'} alt="img"/>
+        <Image className="w-[500px]" src={banner} alt="img"/>
       </div>
     </div>
   );

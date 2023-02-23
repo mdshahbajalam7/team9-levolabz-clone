@@ -16,7 +16,7 @@ import Developers from "@/components/developers";
 import Bestdevelopers from "@/components/bestdevelopers";
 import Navbar from "@/components/navbar";
 
-// const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -51,7 +51,7 @@ export default function Home() {
       <Developers />
       <Bestdevelopers />
       <PeopleTuring />
-      <InformationSlider />
+      {/* <InformationSlider /> */}
       <RemoteDevelopre />
       <Footer />
     </>
