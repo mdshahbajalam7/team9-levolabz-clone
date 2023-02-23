@@ -51,7 +51,7 @@ export default function Home() {
       <Developers />
       <Bestdevelopers />
       <PeopleTuring />
-      {/* <InformationSlider /> */}
+      <InformationSlider />
       <RemoteDevelopre />
       <Footer />
     </>
