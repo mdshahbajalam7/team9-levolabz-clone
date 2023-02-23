@@ -99,7 +99,7 @@ export default function InformationSlider() {
               src={company[slideIndex].name}
               width={"0"}
               height={"0"}
-            ></Image>
+            />
           </div>
         ))}
       </div>

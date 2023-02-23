@@ -1,12 +1,13 @@
+import Image from "next/image";
 export default function Dedicated() {
   return (
     <div className="flex  sm:flex-col md:flex-col lg:flex-row justify-around">
       <div className="justify-center">
-        <img
+        <Image
           className=" w-[100%] md:p-[50px]"
           src="https://d2mk45aasx86xg.cloudfront.net/graph_be4a9cff45.svg"
           alt="img"
-        ></img>
+        />
       </div>
       <div className="pt-12 sm:pl-5 md:pl-10">
         <h1>CLIENTS</h1>

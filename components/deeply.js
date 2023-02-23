@@ -28,7 +28,7 @@ export default function Deeply() {
           height={"0"}
 
           alt="img"
-        ></Image>
+        />
       </div>
     </div>
   );

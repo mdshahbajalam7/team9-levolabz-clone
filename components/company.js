@@ -32,7 +32,7 @@ export default function Company() {
       <div className="grid lg:grid-flow-col sm:grid-rows justify-center gap-8 pt-10 ">
         {companyimg.map((item, index) => (
           <div key={index}>
-            <Image className="w-25" src={item.src} width={"0"} height={"0"} alt="img" />
+            <Image className="w-25" src={item.src} width={"0"} height={"0"} alt="item" />
           </div>
         ))}
       </div>
