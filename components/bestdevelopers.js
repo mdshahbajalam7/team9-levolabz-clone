@@ -7,16 +7,18 @@ import income from "../public/image/Bestdevelopers/income.webp";
 function Bestdevelopers() {
   return (
     <>
-      <div className="lg:w-[90%] md:w-[90%] sm:w-[90%] grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 mx-auto md:pl-10 sm:pl-10">
-        <div className="w-[350px] h-[350px] mt-20 lg:ml-[5%] md:flex md:justify-center md:ml-[20%] sm:-ml-10">
+      <div className="lg:w-[90%] md:w-[90%] sm:w-[90%] grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 mx-auto md:pl-10 sm:pl-10 sm:pb-10">
+        <div className="pb-10 mt-20 lg:ml-[5%] md:ml-[20%] sm:-ml-10">
           <Image
             src={steps}
             alt="steps"
-            className="lg:w-[100%] lg:h-[100%] md:w-[80%] md:h-[80%] sm:w-[60%] sm:h-[60%] sm:ml-10"
+            width={500}
+            height={500}
+            className=" w-[100%] lg:h-[100%] sm:ml-1"
           />
         </div>
         <div className="lg:w-[90%] lg:mt-12 md:w-[100%] sm:w-[105.8%] lg:ml-[5%] sm:-ml-10">
-          <div className="lg:w-[557.8px] md:w-[95%] md:mt-[10px] sm:mt-[-30%]">
+          <div className="lg:w-[557.8px] md:w-[95%] md:mt-[10px]">
             <h2 className="lg:text-[36px] md:w-[100%] md:text-[34px] sm:text-[25px] font-serif">
               Why are the best developers joining Turing?{" "}
               <span className="font-serif lg:font-[36px] lg:text-[#2e6edf] md:w-[100%] md:font-[36px] md:text-[#2e6edf] sm:font-[36px] sm:text-[#2e6edf]">

@@ -4,7 +4,7 @@ export default function Deeply() {
     <div className="flex pt-16 pb-8 bg-[#f8f8f8] sm:flex-col-reverse md:flex-col-reverse lg:flex-row justify-around">
       <div className="pr-16 sm:pl-5 md:pl-10">
         <h1>CLIENTS</h1>
-        <h1 className="text-4xl font-semibold leading-normal">
+        <h1 className="text-4xl font-semibold leading-normal sm:w-[100%] sm:text-[29px]">
           Hire deeply-vetted developers
         </h1>
         <p className="pt-5 text-lg">
@@ -20,13 +20,12 @@ export default function Deeply() {
           </button>
         </div>
       </div>
-      <div className="pr-[90px] ">
+      <div className="pr-[90px] pl-11">
         <Image
-          className="w-[100%]"
+          className="w-[100%] h-[100%]"
           src="https://d2mk45aasx86xg.cloudfront.net/world_d650185bdd.svg"
-          width={"0"}
-          height={"0"}
-
+          width={500}
+          height={500}
           alt="img"
         />
       </div>
