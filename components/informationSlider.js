@@ -74,9 +74,9 @@ export default function InformationSlider() {
         </div>
         <div className="text-[30px] mt-[-20px]  px-10 text-center ">
           <p className="leading-none italic">
-            "{infoSlide[currentIndex].text}
+            {infoSlide[currentIndex].text}
             <br />
-            {infoSlide[currentIndex].text2}"
+            {infoSlide[currentIndex].text2}
           </p>
         </div>
 
@@ -97,8 +97,8 @@ export default function InformationSlider() {
             <Image
               className="h-[40px] "
               src={company[slideIndex].name}
-              width={"0"}
-              height={"0"}
+              width={500}
+              height={500}
             />
           </div>
         ))}
