@@ -7,6 +7,8 @@ export default function Dedicated() {
           className=" w-[100%] md:p-[50px]"
           src="https://d2mk45aasx86xg.cloudfront.net/graph_be4a9cff45.svg"
           alt="img"
+          width={'0'}
+          height={'0'}
         />
       </div>
       <div className="pt-12 sm:pl-5 md:pl-10">
