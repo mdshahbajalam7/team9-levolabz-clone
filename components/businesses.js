@@ -6,8 +6,8 @@ import thumbsup from "../public/image/Businesses/thumbsup.webp";
 function Businesses() {
   return (
     <div>
-      <div className="w-[100%] bg-gray-100 mt-4 lg:h-[450px] md:h-[800px] sm:h-[800px] py-5">
-        <h3 className="md:ml-5 font-serif lg:w-[431.23px] lg:text-[28px] lg:mx-[auto] lg:mt-[40px] md:w-[90%] md:text-[28px] md:flex md:justify-start sm:w-[100%] sm:text-[26px] sm:ml-4 sm:flex sm:justify-start">
+      <div className="lg:w-[100%] md:w-[100%] sm:w-[98%] bg-gray-100 mt-4 lg:h-[450px] md:h-[800px] sm:h-[800px] py-5">
+        <h3 className="md:ml-5 font-serif lg:w-[431.23px] lg:text-[28px] lg:mx-[auto] lg:mt-[40px] md:w-[90%] md:text-[28px] md:flex md:justify-start sm:w-[97%] sm:text-[24px] sm:ml-3 sm:flex sm:justify-start">
           Why businesses choose Turing
         </h3>
         <div className="lg:w-[80%] lg:mx-[auto] lg:grid lg:grid-cols-3 lg:justify-between lg:ga-[10px] lg:my-14 md:w-[95%] md:grid md:grid-cols-3 md:justify-start md:gap-[10px] md:mt-14 sm:w-[95%] sm:grid sm:grid-cols-1 sm:justify-start sm:gap-[10px] sm:mt-14">

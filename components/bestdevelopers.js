@@ -7,15 +7,15 @@ import income from "../public/image/Bestdevelopers/income.webp";
 function Bestdevelopers() {
   return (
     <>
-      <div className="w-[90%] grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 mx-auto pb-10">
-        <div className="w-[557.8px] h-[449px] mt-20 lg:ml-[5%] md:flex md:justify-center md:ml-[20%]">
+      <div className="lg:w-[90%] md:w-[90%] sm:w-[90%] grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 mx-auto md:pl-10 sm:pl-10">
+        <div className="w-[350px] h-[350px] mt-20 lg:ml-[5%] md:flex md:justify-center md:ml-[20%] sm:-ml-10">
           <Image
             src={steps}
             alt="steps"
-            className="lg:w-[100%] lg:h-[100%] md:w-[80%] md:h-[80%] sm:w-[60%] sm:h-[60%] "
+            className="lg:w-[100%] lg:h-[100%] md:w-[80%] md:h-[80%] sm:w-[60%] sm:h-[60%] sm:ml-10"
           />
         </div>
-        <div className="lg:w-[90%] lg:mt-12 md:w-[100%] sm:w-[105.8%] lg:ml-[5%]">
+        <div className="lg:w-[90%] lg:mt-12 md:w-[100%] sm:w-[105.8%] lg:ml-[5%] sm:-ml-10">
           <div className="lg:w-[557.8px] md:w-[95%] md:mt-[10px] sm:mt-[-30%]">
             <h2 className="lg:text-[36px] md:w-[100%] md:text-[34px] sm:text-[25px] font-serif">
               Why are the best developers joining Turing?{" "}

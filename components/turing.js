@@ -7,8 +7,8 @@ import { AiOutlinePlayCircle } from "react-icons/ai";
 function Turing() {
   return (
     <>
-      <div className="lg:w-[84%] lg:mx-[auto] lg:mt-12 md:w-[600.2px] md:ml-5 md:text-[20px] sm:w-[343.2px] sm:text-[20px] sm:mt-8 sm:ml-10">
-        <h2 className="font-serif  lg:text-[40px]">
+      <div className="lg:w-[84%] lg:mx-[auto] lg:mt-12 md:w-[600.2px] md:ml-5 md:text-[20px] sm:w-[343.2px] sm:text-[20px] sm:mt-8 sm:ml-8">
+        <h2 className="font-serif  lg:text-[40px] sm:-ml-4">
           Turing combines global reach and AI to deliver your ideal remote
           developers
         </h2>
