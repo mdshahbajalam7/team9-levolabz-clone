@@ -5,7 +5,7 @@ const Career = () => {
   return (
     <>
       <div className="w-[100%] bg-gray-100 mt-4 lg:h-[450px] md:h-[800px] sm:h-[800px]">
-        <div className="w-[90%] flex lg:flex-row justify-around md:flex-col-reverse  sm:flex-col-reverse sm:pl-5 md:pl-10 md:mx-auto">
+        <div className="w-[88%]  flex lg:flex-row justify-around md:flex-col-reverse  sm:flex-col-reverse sm:pl-5 md:pl-10 md:mx-auto">
           <div className="mt-14 ">
             <h2 className=" text-[16px] text-xl font-bold text-[#737373]  mb-2 capitalize">
               DEVELOPERS
@@ -20,7 +20,7 @@ const Career = () => {
               platform—the Talent Cloud—matches you with opportunities from our
               clients.
             </p>
-            <button className=" w-[40%] h-[50px] bg-[#2e6edf] rounded-lg text-[#ffffff] mt-14 lg:w-[30%] md:w-[30%]  sm:w-[60%]">
+            <button className=" w-[40%] h-[50px] bg-[#2e6edf] rounded-lg text-[#ffffff] mt-14 lg:w-[25%] md:w-[30%]  sm:w-[60%]">
               Apply for Jobs
             </button>
           </div>
