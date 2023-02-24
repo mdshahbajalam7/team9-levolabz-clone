@@ -7,12 +7,10 @@ export default function Deeply() {
         <h1 className="text-4xl font-semibold leading-normal sm:w-[100%] sm:text-[29px]">
           Hire deeply-vetted developers
         </h1>
-        <p className="pt-5 text-lg">
+        <p className="pt-5 text-lg lg:w-[60%]">
           A software-first solution to any engineering problem. Use our
-          <br />
-          AI-powered deep-vetting platform to hire and manage the <br />
-          right remote developers, tech leads, and others for your
-          <br /> resource needs.
+          AI-powered deep-vetting platform to hire and manage the
+          right remote developers, tech leads, and others for your resource needs.
         </p>
         <div className="pt-8">
           <button className="px-10 py-3 bg-blue-500 rounded-md text-white font-semibold mr-4 hover:bg-blue-600">
@@ -20,13 +18,14 @@ export default function Deeply() {
           </button>
         </div>
       </div>
-      <div className="pr-[90px] pl-11">
+      <div className="pr-[90px] pl-11 lg:w-[60%] lg:-ml-30">
         <Image
-          className="w-[100%] h-[100%]"
+          className="w-[100%] h-[100%] lg:-ml-32"
           src="https://d2mk45aasx86xg.cloudfront.net/world_d650185bdd.svg"
           width={500}
           height={500}
           alt="img"
+          
         />
       </div>
     </div>
