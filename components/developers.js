@@ -5,7 +5,7 @@ import map from "../public/image/Developers/dotsmap.webp";
 function Developers() {
   return (
     <>
-      <div className="pt-10 w-[100%] lg:h-[620px]  md:h-[800px] sm:h-[645px]  bg-gradient-to-r from-[#4c63c4] to-[#3e85e2]">
+      <div className="pt-10 w-[100%] lg:h-[620px]  md:h-[600px] sm:h-[645px]  bg-gradient-to-r from-[#4c63c4] to-[#3e85e2]">
         <div className="mx-[auto] lg:w-[80%] py-[6%]  lg:grid lg:grid-cols-2 lg:items-center lg:gap-0 md:w-[90%]  md:grid md:grid-cols-2 md:items-center md:gap-0 sm:w-[90%]  sm:grid sm:grid-cols-2 sm:items-center sm:gap-0">
           <div className="z-10 lg:w-[100%] mt-[0%]">
             <p className=" leading-tight font-sans lg:mt-1 lg:text-[48px] text-[#ffffff] md:mt-3 md:text-[48px] sm:w-[200%] sm:mt-3 sm:text-[36px]">
@@ -42,13 +42,13 @@ function Developers() {
               </div>
             </div>
             <div className="lg:w-[70%] lg:flex gap-5 lg:justify-between lg:text-center lg:mt-8 md:w-[100%] md:text-center md:mt-8  sm:w-[100%] sm:text-center sm:mt-8 ">
-              <div>
-                <button className="font-semibold sm:w-[200%] sm:h-[50px] md:w-[100%] md:h-[50px] lg:w-[188.66px] lg:h-[50px] bg-white text-[16px] text-[#3e85e2] border-none rounded-lg ">
+              <div className="md:w-[100%]">
+                <button className="border font-semibold sm:w-[200%] sm:h-[50px]  md:w-[200%] md:h-[50px] lg:w-[188.66px] lg:h-[50px] bg-white text-[16px] text-[#3e85e2] border-none rounded-lg ">
                   Hire Developers
                 </button>
               </div>
               <div>
-                <button className="font-semibold sm:w-[200%] sm:h-[50px] md:w-[100%] md:h-[50px] lg:w-[188.66px] lg:h-[50px] text-[16px] text-[#ffffff] border sm:mt-5 rounded-lg  lg:mt-0">
+                <button className="font-semibold sm:w-[200%] sm:h-[50px] md:w-[200%] md:h-[50px] lg:w-[188.66px] lg:h-[50px] text-[16px] text-[#ffffff] border sm:mt-5 rounded-lg  lg:mt-0">
                   Apply for jobs
                 </button>
               </div>

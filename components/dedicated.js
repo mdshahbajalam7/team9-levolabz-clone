@@ -14,7 +14,7 @@ export default function Dedicated() {
       <div className="pt-12 sm:pl-5 md:pl-10">
         <h1>CLIENTS</h1>
         <h1 className="text-4xl font-semibold leading-normal">
-          Hire a dedicated developement team
+        Hire a dedicated development team
         </h1>
         <p className="pt-5 text-lg">
           At the push of a button, our AI-powered

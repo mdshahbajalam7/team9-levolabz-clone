@@ -6,7 +6,7 @@ import thumbsup from "../public/image/Businesses/thumbsup.webp";
 function Businesses() {
   return (
     <div>
-      <div className="lg:w-[100%] md:w-[100%] sm:w-[98%] bg-gray-100 mt-4 lg:h-[450px] md:h-[800px] sm:h-[800px] py-5">
+      <div className="lg:w-[100%] md:w-[100%] sm:w-[98%] bg-gray-100 mt-4 lg:h-[450px] md:h-[400px] sm:h-[800px] py-5">
         <h3 className="md:ml-5 font-serif lg:w-[431.23px] lg:text-[28px] lg:mx-[auto] lg:mt-[40px] md:w-[90%] md:text-[28px] md:flex md:justify-start sm:w-[97%] sm:text-[24px] sm:ml-3 sm:flex sm:justify-start">
           Why businesses choose Turing
         </h3>
@@ -53,9 +53,8 @@ function Businesses() {
             <p className="font-serif lg:text-[22px] md:text-[22px] sm:text-[20px]">
               saved{" "}
               <span className="font-serif lg:text-[22px] lg:text-[#1fb70b] md:text-[22px] md:text-[#1fb70b] sm:text-[22px] sm:text-[#1fb70b]">
-                per developer
-              </span>
-              ,oninterviewing.
+              per developer 
+              </span> on interviewing.
             </p>
           </div>
           <div className=" lg:ml-[30%]  lg:w-[40%] md:ml-[40%] sm:ml-5 md:w-[50%] md:mt-[20px] sm:w-[40%] sm:mt-[20px] ">

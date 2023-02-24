@@ -11,7 +11,7 @@ export default function PeopleTuring() {
             learn what it’s like working with top U.S. companies.
           </p>
         </div>
-        <div className="text-end sm:text-left md:text-end lg:text-end">
+        <div className="text-end sm:text-left md:text-end lg:text-end md:pr-6">
           <div className="flex justify-end sm:justify-start md:justify-end">
             <p className="font-[500] text-[1.8em] ">⭐ 4.7</p>
             <p className="pt-5 pl-3 text-sm text-[gray]">OUT OF 5</p>

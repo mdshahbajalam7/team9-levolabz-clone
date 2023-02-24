@@ -44,12 +44,12 @@ export default function Navbar() {
           </svg>
         </div>
         {nav ? (
-          <XMarkIcon className="h-8 m-2 md:hidden" onClick={dropDownClose} />
+          <XMarkIcon className="h-8 m-2 lg:hidden" onClick={dropDownClose} />
         ) : (
-          <Bars3Icon className="h-8 m-2 md:hidden" onClick={dropDown} />
+          <Bars3Icon className="h-8 m-2 lg:hidden" onClick={dropDown} />
         )}
 
-        <div className="hidden md:flex md:flex-row md:gap-7 md:pr-[100px] md:text-lg md:pt-3 md:font-light ">
+        <div className="hidden lg:flex lg:flex-row lg:gap-7 lg:pr-[100px] lg:text-lg lg:pt-3 lg:font-light ">
           <p className=" ">Apply for Jobs</p>
           <p>Hire Developers</p>
           <p>Hire a Team</p>

@@ -26,8 +26,7 @@ export default function Company() {
         Traditional recruiting is over. Welcome to the Talent Cloud.
       </h1>
       <p className="pt-8">
-        Join hundreds of companies trusting Turing for their remote engineering
-        needs.
+      Join 400+ companies trusting Turing for their remote engineering needs.
       </p>
       <div className="grid lg:grid-flow-col sm:grid-rows justify-center gap-8 pt-10 ">
         {companyimg.map((item, index) => (
