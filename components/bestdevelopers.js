@@ -8,7 +8,7 @@ function Bestdevelopers() {
   return (
     <>
       <div className="lg:w-[90%] md:w-[90%] sm:w-[90%] grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 mx-auto md:pl-10 sm:pl-10 sm:pb-10">
-        <div className="pb-10 mt-20 lg:ml-[5%] md:ml-[20%] sm:-ml-10 md:-ml-4">
+        <div className="pb-10 mt-20 lg:ml-[5%]  sm:-ml-10 md:-ml-4">
           <Image
             src={steps}
             alt="steps"
