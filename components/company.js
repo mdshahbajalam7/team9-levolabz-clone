@@ -21,8 +21,8 @@ export default function Company() {
     },
   ];
   return (
-    <div className="text-center pt-9 bg-[#f8f8f8]">
-      <h1 className="text-4xl font-semibold leading-normal">
+    <div className="pt-9 bg-[#f8f8f8] lg:text-center pl-5">
+      <h1 className="text-4xl font-semibold leading-normal md:text-3xl sm:text-2xl">
         Traditional recruiting is over. Welcome to the Talent Cloud.
       </h1>
       <p className="pt-8">

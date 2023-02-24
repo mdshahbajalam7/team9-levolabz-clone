@@ -8,7 +8,7 @@ function Bestdevelopers() {
   return (
     <>
       <div className="lg:w-[90%] md:w-[90%] sm:w-[90%] grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 mx-auto md:pl-10 sm:pl-10 sm:pb-10">
-        <div className="pb-10 mt-20 lg:ml-[5%] md:ml-[20%] sm:-ml-10">
+        <div className="pb-10 mt-20 lg:ml-[5%] md:ml-[20%] sm:-ml-10 md:-ml-4">
           <Image
             src={steps}
             alt="steps"
@@ -19,9 +19,9 @@ function Bestdevelopers() {
         </div>
         <div className="lg:w-[90%] lg:mt-12 md:w-[100%] sm:w-[105.8%] lg:ml-[5%] sm:-ml-10">
           <div className="lg:w-[557.8px] md:w-[95%] md:mt-[10px]">
-            <h2 className="lg:text-[36px] md:w-[100%] md:text-[34px] sm:text-[25px] font-serif">
+            <h2 className="lg:text-[36px] md:w-[100%] md:text-[25px] sm:text-[25px]">
               Why are the best developers joining Turing?{" "}
-              <span className="font-serif lg:font-[36px] lg:text-[#2e6edf] md:w-[100%] md:font-[36px] md:text-[#2e6edf] sm:font-[36px] sm:text-[#2e6edf]">
+              <span className=" lg:font-[36px] lg:text-[#2e6edf] md:w-[100%] md:font-[36px] md:text-[#2e6edf] sm:font-[36px] sm:text-[#2e6edf]">
                 Because they want careers, not gigs.
               </span>
             </h2>
@@ -32,7 +32,7 @@ function Bestdevelopers() {
               alt="profile_check"
               className="lg:w-[48px] lg:h-[48px] md:w-[40px] md:h-[40px] sm:w-[40px] sm:h-[40px]"
             />
-            <div className="font-serif lg:text-[20px] lg:ml-5 lg:mt-2 md:text-[20px] md:ml-5 md:mt-2 sm:text-[18px] sm:ml-5  sm:py-2 lg:w-[100%] md:w-[100%] sm:w-[100%]">
+            <div className="lg:text-[20px] lg:ml-5 lg:mt-2 md:text-[20px] md:ml-5  sm:text-[18px] sm:ml-5  sm:py-2 lg:w-[100%] md:w-[100%] sm:w-[100%]">
               Vetted once, eligible for life
             </div>
           </div>
@@ -42,7 +42,7 @@ function Bestdevelopers() {
               alt="exclusive"
               className="lg:w-[48px] lg:h-[48px] md:w-[40px] md:h-[40px] sm:w-[40px] sm:h-[40px]"
             />
-            <div className="font-serif lg:text-[20px] lg:ml-5 lg:mt-2 md:text-[20px] md:ml-5 md:mt-2 sm:text-[16px] sm:ml-5 sm:mt-  sm:w-[150%] md:w-[100%] lg:w-[100%">
+            <div className=" lg:text-[20px] lg:ml-5 lg:mt-2 md:text-[20px] md:ml-5 md:mt-1 sm:text-[16px] sm:ml-5 sm:mt-  sm:w-[150%] md:w-[100%] lg:w-[100%">
               Exclusive Turing developer success support
             </div>
           </div>
@@ -52,7 +52,7 @@ function Bestdevelopers() {
               alt="income"
               className="lg:w-[48px] lg:h-[48px] md:w-[40px] md:h-[40px] sm:w-[40px] sm:h-[40px]"
             />
-            <div className="font-serif lg:text-[20px] lg:ml-5 lg:mt-2 md:text-[20px] md:ml-5 md:mt-2 sm:text-[16px] sm:ml-5  sm:-w[200%]">
+            <div className=" lg:text-[20px] lg:ml-5 lg:mt-2 md:text-[20px] md:ml-5 md:mt-1 sm:text-[16px] sm:ml-5  sm:-w[200%]">
               Income stability thanks to 99% rematch rate
             </div>
           </div>

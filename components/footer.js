@@ -1,7 +1,7 @@
 export default function FooterOne() {
   return (
     <div className="bg-[#1e1e1e] pt-16 pb-16 ">
-      <div className="flex gap-11 sm:gap-[50px] md:gap-[100px] lg:gap-[200px] sm:flex-col md:flex-row lg:flex-row">
+      <div className="flex gap-11  sm:gap-[50px] md:gap-[50px] lg:gap-[200px] sm:flex-col md:flex-col lg:flex-row">
         <div className="md:pl-10 sm:pl-5">
           <svg
             width="124"
@@ -26,7 +26,7 @@ export default function FooterOne() {
             ></path>
           </svg>
         </div>
-        <div className="grid gap-[70px] sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 pl-4 sm:pl-5">
+        <div className="grid gap-[70px] sm:grid-cols-2 md:pl-10 md:grid-cols-2 lg:grid-cols-4 pl-4 sm:pl-5">
           <div className="text-white flex flex-col gap-2 ">
             <p className="font-bold">Companies</p>
             <a className="font-light cursor-pointer">Hire Developers</a>
@@ -100,12 +100,12 @@ export default function FooterOne() {
             ></path>
           </svg>
         </div>
-        <div className=" text-white flex md:flex-row justify-between pt-6 sm:flex-col">
+        <div className=" text-white flex md:flex-col-reverse justify-between pt-6 sm:flex-col-reverse">
           <div className="md:pl-10 sm:pl-5 leading-9">
             <p className="text-xl">© 2023 Turing</p>
-            <p>1900 Embarcadero Road Palo Alto, CA, 94303</p>
+            <p className="text-[gray]">1900 Embarcadero Road Palo Alto, CA, 94303</p>
           </div>
-          <div className="flex gap-5 lg:pr-32 sm:pl-5 sm:pt-5 ">
+          <div className="flex gap-5 lg:pr-32 sm:pl-5 sm:pt-1 sm:pb-5 md:pl-10 md:pb-2 md:text-[gray] ">
             <a className="cursor-pointer">Sitemap</a>
             <a className="cursor-pointer">Terms of Service</a>
             <a className="cursor-pointer">Privacy Policy</a>

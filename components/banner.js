@@ -4,7 +4,7 @@ export default function Banner() {
   return (
     <div className="flex justify-around sm:flex-col-reverse md:flex-col-reverse lg:flex-row">
       <div className="md:pl-10 sm:pl-5 pt-6 ">
-        <h1 className="text-4xl font-semibold leading-normal">
+        <h1 className="text-4xl font-semibold leading-normal md:text-3xl sm:text-2xl">
           The most deeply vetted developers and <br /> teams, matched by AI
         </h1>
         <p className="pt-5 text-lg">

@@ -13,7 +13,7 @@ export default function Dedicated() {
       </div>
       <div className="pt-12 sm:pl-5 md:pl-10">
         <h1>CLIENTS</h1>
-        <h1 className="text-4xl font-semibold leading-normal">
+        <h1 className="text-4xl font-semibold leading-normal md:text-3xl sm:text-2xl">
         Hire a dedicated development team
         </h1>
         <p className="pt-5 text-lg">

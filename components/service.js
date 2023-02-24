@@ -51,7 +51,7 @@ export default function Service() {
         </p>
         <div className="pt-6">
           <button className="px-10 py-3 bg-blue-500 rounded-md text-white font-semibold mr-4 hover:bg-blue-600">
-            More about Teams
+          More about Services
           </button>
         </div>
       </div>

@@ -72,7 +72,7 @@ export default function InformationSlider() {
             onClick={prevSlide}
           />
         </div>
-        <div className="text-[30px] mt-[-20px]  px-10 text-center ">
+        <div className="text-[30px] md:text-[25px] sm:text-[20px] mt-[-20px]  px-10 text-center ">
           <p className="leading-none italic">
             {infoSlide[currentIndex].text}
             <br />
@@ -95,10 +95,10 @@ export default function InformationSlider() {
             className="text-2xl flex justify-center"
           >
             <Image
-              className="h-[40px] "
+              className="h-[30px] "
               src={company[slideIndex].name}
-              width={500}
-              height={500}
+              width={300}
+              height={300}
             />
           </div>
         ))}
