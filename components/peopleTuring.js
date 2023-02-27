@@ -1,4 +1,4 @@
-import MobileSlider from "./mobileSlider";
+import MobileSlider from "./MobileSlider";
 import MySlider from "./MySlider";
 import TabSlider from "./TabSlider";
 
