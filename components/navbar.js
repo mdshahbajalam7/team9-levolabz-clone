@@ -49,7 +49,7 @@ export default function Navbar() {
           <Bars3Icon className="h-8 m-2 lg:hidden" onClick={dropDown} />
         )}
 
-        <div className="hidden lg:flex lg:flex-row lg:gap-7 lg:pr-[100px] lg:text-lg lg:pt-3 lg:font-light ">
+        <div className="hidden lg:flex lg:flex-row lg:gap-7 lg:pr-[100px] lg:text-lg lg:pt-3  ">
           <p className=" ">Apply for Jobs</p>
           <p>Hire Developers</p>
           <p>Hire a Team</p>
