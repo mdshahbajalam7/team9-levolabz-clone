@@ -1,4 +1,6 @@
+import MobileSlider from "./mobileSlider";
 import MySlider from "./MySlider";
+import TabSlider from "./TabSlider";
 
 export default function PeopleTuring() {
   return (
@@ -22,8 +24,14 @@ export default function PeopleTuring() {
           <p className="text-blue-600">View all Reviews</p>
         </div>
       </div>
-      <div className="pt-10 md:pl-10 sm:pl-5">
+      <div className="hidden pt-10 lg:block">
         <MySlider />
+      </div>
+      <div className="hidden pt-10 md:pl-10 sm:pl-5 md:block lg:hidden">
+        <TabSlider />
+      </div>
+      <div className="pt-10 md:pl-10 sm:pl-5 block md:hidden">
+        <MobileSlider />
       </div>
     </div>
   );

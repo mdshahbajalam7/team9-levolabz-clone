@@ -17,7 +17,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="top-0 sticky bg-white scroll drop-shadow-md z-50">
+    <div className=" top-0 sticky bg-white scroll drop-shadow-md z-50">
       <div className="flex justify-between  ">
         <div className="pl-10 pt-2">
           <svg

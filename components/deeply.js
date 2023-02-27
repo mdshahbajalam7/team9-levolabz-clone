@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Deeply() {
   return (
     <div className="flex pt-16 pb-8 bg-[#f8f8f8] sm:flex-col-reverse md:flex-col-reverse lg:flex-row justify-around">
-      <div className="pr-16 sm:pl-5 md:pl-10">
+      <div className="pr-16 sm:pl-5 md:pl-10 lg:ml-[40px] ">
         <h1>CLIENTS</h1>
         <h1 className="text-4xl font-semibold leading-normal sm:w-[100%] sm:text-[29px]">
           Hire deeply-vetted developers

@@ -3,13 +3,13 @@ import { PlayCircleIcon } from "@heroicons/react/20/solid";
 import NextArrow from "./NextArrow";
 import PrevArrow from "./PrevArrow";
 
-export default function MySlider() {
+export default function TabSlider() {
   const settings = {
     autoScroll: true,
     arrows: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 3.5,
+    slidesToShow: 1.7,
     slidesToScroll: 1,
     initialSlide: 0,
     nextArrow: <NextArrow />,
