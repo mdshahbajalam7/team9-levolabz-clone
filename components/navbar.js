@@ -17,9 +17,9 @@ export default function Navbar() {
   };
 
   return (
-    <div className=" top-0 sticky bg-white scroll drop-shadow-md z-50">
+    <div className=" top-0 sticky bg-white scroll drop-shadow-md z-50 pb-4">
       <div className="flex justify-between  ">
-        <div className="pl-10 pt-2">
+        <div className="pl-10 pt-5">
           <svg
             width="124"
             height="45"
@@ -49,12 +49,22 @@ export default function Navbar() {
           <Bars3Icon className="h-8 m-2 lg:hidden" onClick={dropDown} />
         )}
 
-        <div className="hidden lg:flex lg:flex-row lg:gap-7 lg:pr-[100px] lg:text-lg lg:pt-3  ">
-          <p className=" ">Apply for Jobs</p>
-          <p>Hire Developers</p>
-          <p>Hire a Team</p>
-          <p>Explore Services</p>
-          <p>Login</p>
+        <div className="hidden lg:flex lg:flex-row lg:gap-7 lg:pr-[100px] lg:text-xl lg:pt-5 cursor-pointer">
+          <p className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2  ">
+            Apply for Jobs
+          </p>
+          <p className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2  ">
+            Hire Developers
+          </p>
+          <p className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2  ">
+            Hire a Team
+          </p>
+          <p className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2  ">
+            Explore Services
+          </p>
+          <p className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2  ">
+            Login
+          </p>
         </div>
       </div>
       {nav && (
