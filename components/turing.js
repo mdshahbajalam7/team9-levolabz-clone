@@ -8,7 +8,7 @@ function Turing() {
   return (
     <>
       <div className="lg:w-[84%] lg:mx-[auto] lg:mt-12 md:w-[600.2px] md:ml-8 md:text-[20px]  sm:w-[343.2px] sm:text-[20px] sm:mt-20 sm:ml-8">
-        <h2 className="  lg:text-[40px] sm:-ml-4">
+        <h2 className=" md:ml-2 sm:font-semibold  lg:text-[40px] sm:-ml-4 sm:text-[22px]">
           Turing combines global reach and AI to deliver your ideal remote
           developers
         </h2>
@@ -23,8 +23,8 @@ function Turing() {
             />
           </div>
           <div className="lg:ml-[10px]">
-            <h5 className=" lg:text-[20px] lg:m-[24px] md:text-[19px] md:w-[60%] md:ml-5 md:mx-[auto] sm:text-[19px] sm:w-[60%] sm:ml-5 sm:mx-[auto]">
-              Tailored to your <br /> requirements
+            <h5 className=" sm:font-semibold  md:font-semibold lg:text-[20px] lg:m-[24px] md:text-[19px] md:w-[60%] md:ml-5 md:mx-[auto] sm:text-[19px] sm:w-[60%] sm:ml-5 sm:mx-[auto]">
+              Tailored to your <br/> requirements
             </h5>
           </div>
           <div className="lg:ml-[10px]">
@@ -152,12 +152,12 @@ function Turing() {
             />
           </div>
           <div className="lg:ml-5">
-            <h5 className="font-serif lg:text-[18px] lg:m-[24px] md:text-[19px] md:w-[60%] md:ml-5 md:mx-[auto] sm:text-[19px] sm:w-[60%] sm:ml-5 sm:mx-[auto]">
+            <h5 className="sm:font-bold font-serif lg:text-[18px] lg:m-[24px] md:text-[19px] md:w-[60%] md:ml-5 md:mx-[auto] sm:text-[19px] sm:w-[60%] sm:ml-5 sm:mx-[auto]">
               Your ideal developer
             </h5>
           </div>
           <div className="lg:ml-10 md:ml-5 sm:ml-5 ">
-            <ul className="list-disc ml-5 pt-4">
+            <ul className="list-disc ml-5 md:mt-4 lg:mt-[-10px]">
               <li className="font-serif lg:w-[240px] lg:h-[24px] lg:text-[19px] md:w-[240px] md:h-[24px] md:text-[18px] sm:w-[240px] sm:h-[24px] sm:text-[18px]">
                 Typical engagement:
               </li>

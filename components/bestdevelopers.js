@@ -18,8 +18,8 @@ function Bestdevelopers() {
           />
         </div>
         <div className="lg:w-[90%] lg:mt-12 md:w-[100%] sm:w-[105.8%] lg:ml-[5%] sm:-ml-10">
-          <div className="lg:w-[557.8px] md:w-[95%] md:mt-[10px]">
-            <h2 className="lg:text-[36px] md:w-[100%] md:text-[25px] sm:text-[25px]">
+          <div className="lg:w-[557.8px] md:w-[95%] md:mt-[10px] sm:w-[110%]">
+            <h2 className="sm:font-semibold lg:text-[36px] md:w-[100%] md:text-[25px] sm:text-[25px]">
               Why are the best developers joining Turing?{" "}
               <span className=" lg:font-[36px] lg:text-[#2e6edf] md:w-[100%] md:font-[36px] md:text-[#2e6edf] sm:font-[36px] sm:text-[#2e6edf]">
                 Because they want careers, not gigs.

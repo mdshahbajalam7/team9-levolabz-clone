@@ -72,17 +72,17 @@ export default function InformationSlider() {
             onClick={prevSlide}
           />
         </div>
-        <div className="text-[30px] md:text-[25px] sm:text-[20px] mt-[-20px]  px-10 text-center ">
-          <p className="leading-none italic">
+        <div className="text-[30px] md:text-[25px] sm:text-[20px] mt-[-20px] px-10 text-center ">
+          <p className="leading-none text-[gray] italic">
             {infoSlide[currentIndex].text}
             <br />
             {infoSlide[currentIndex].text2}
           </p>
         </div>
 
-        <div className="cursor-pointer">
+        <div className="  cursor-pointer">
           <BsChevronCompactRight
-            className=" text-5xl  cursor-pointer"
+            className="text-5xl  cursor-pointer"
             onClick={nextSlide}
           />
         </div>

@@ -6,14 +6,14 @@ const Career = () => {
     <>
       <div className="w-[100%] bg-gray-100 mt-4 lg:h-[450px] md:h-[750px] sm:h-[750px]">
         <div className="w-[84%]  flex lg:flex-row justify-around md:flex-col-reverse  sm:flex-col-reverse sm:pl-5 md:pl-4 md:mx-auto">
-          <div className="mt-14 ">
+          <div className="mt-14 md:-ml-8">
             <h2 className=" text-[16px]  font-semibold text-[#737373]  mb-2 capitalize">
               DEVELOPERS
             </h2>
-            <h3 className="text-4xl font-semibold mt-3 mb-2 capitalize sm:wd-[100%] sm:text-[28px]">
+            <h3 className="text-4xl font-semibold md:text-[30px] mt-3 mb-2 capitalize sm:wd-[100%] sm:text-[24px]">
               Build a remote career
             </h3>
-            <p className=" text-[#212121] md:w-[100%] lg:text-lg lg:w-[81%] md:text-lg  sm:w-[100%] sm:text-[18px] ">
+            <p className="md:w-[100%] lg:text-lg lg:w-[81%] md:text-lg  sm:w-[120%] sm:text-[18px] ">
               Get AI-matched to high-paying U.S. tech jobs. Once you sign up,
               you’ll tell us about your past work experience and take our
               vetting tests. Once you pass, our AI-powered deep-vetting
@@ -27,7 +27,7 @@ const Career = () => {
           <Image
             src={BuildCareer}
             alt="BuildCareer"
-            className="mt-8 mx-auto md:w-[411.6px] md:h-[352.8px] md:ml-16 sm:-ml-2"
+            className="mt-8 mx-auto md:w-[411.6px] md:h-[352.8px] md:ml-16 sm:ml-2"
           />
         </div>
       </div>

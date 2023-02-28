@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Dedicated() {
   return (
-    <div className="flex  sm:flex-col md:flex-col lg:flex-row justify-around">
+    <div className="sm:pb-9 flex sm:flex-col md:flex-col lg:flex-row justify-around">
       <div className="justify-center lg:w-[50%] lg:pl-10">
         <Image
           className=" w-[100%] md:p-[50px]"

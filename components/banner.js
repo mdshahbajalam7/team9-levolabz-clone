@@ -2,10 +2,10 @@ import Image from "next/image";
 import banner from "../public/image/banner.jpeg";
 export default function Banner() {
   return (
-    <div className=" mx-[auto] flex justify-around sm:flex-col-reverse md:flex-col-reverse lg:flex-row">
+    <div className=" mx-[auto] flex justify-around sm:flex-col-reverse md:flex-col-reverse lg:flex-row sm:pb-7">
       <div className="md:pl-10 sm:pl-5 pt-6 ">
-        <h1 className="text-4xl font-semibold leading-normal md:text-3xl sm:text-2xl">
-          The most deeply vetted developers and <br /> teams, matched by AI
+        <h1 className="text-4xl font-semibold leading-normal md:text-3xl sm:text-[24px]">
+          The most deeply vetted developers and teams, matched by AI
         </h1>
         <p className="pt-5 text-lg lg:w-[65%]">
           At the push of a button, our AI-powered deep-vetting platform—the
@@ -30,7 +30,7 @@ export default function Banner() {
           <span className="text-blue-600 font-medium"> Apply for Jobs</span>
         </p>
       </div>
-      <div className="pr-12 pt-0 justify-center lg:w-[80%]">
+      <div className="lg:pr-12 md:pl-20 pt-0 justify-center lg:w-[80%] sm:pr-0">
         <Image className="w-[500px]" src={banner} alt="img" />
       </div>
     </div>

@@ -17,9 +17,9 @@ export default function Navbar() {
   };
 
   return (
-    <div className=" top-0 sticky bg-white scroll drop-shadow-md z-50 pb-4">
+    <div className="top-0 sticky bg-white scroll drop-shadow-md z-50 pb-4">
       <div className="flex justify-between  ">
-        <div className="pl-10 pt-5">
+        <div className="pl-5 pt-5">
           <svg
             width="124"
             height="45"
@@ -46,7 +46,7 @@ export default function Navbar() {
         {nav ? (
           <XMarkIcon className="h-8 m-2 lg:hidden" onClick={dropDownClose} />
         ) : (
-          <Bars3Icon className="h-8 m-2 lg:hidden" onClick={dropDown} />
+          <Bars3Icon className="h-8 m-2 sm:mt-6 lg:hidden" onClick={dropDown} />
         )}
 
         <div className="hidden lg:flex lg:flex-row lg:gap-7 lg:pr-[100px] lg:text-xl lg:pt-5 cursor-pointer">
