@@ -1,8 +1,9 @@
 export default function FooterOne() {
   return (
-    <div className="bg-[#1e1e1e] pt-16 pb-16 ">
-      <div className="flex gap-11  sm:gap-[50px] md:gap-[50px] lg:gap-[200px] sm:flex-col md:flex-col lg:flex-row">
-        <div className="md:pl-10 sm:pl-5">
+    <div className="w-[100%]  bg-[#1e1e1e]">
+    <div className="lg:w-[82%] mx-auto pt-16 pb-16 ">
+      <div className=" flex gap-11  sm:gap-[50px] md:gap-[50px] lg:gap-[200px] sm:flex-col md:flex-col lg:flex-row">
+        <div className="sm:pl-5">
           <svg
             width="124"
             height="45"
@@ -26,7 +27,7 @@ export default function FooterOne() {
             ></path>
           </svg>
         </div>
-        <div className="grid gap-[70px] sm:grid-cols-2 md:pl-10 md:grid-cols-2 lg:grid-cols-4 pl-4 sm:pl-5">
+        <div className="grid gap-[70px] sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-4 pl-4 sm:pl-5">
           <div className="text-white flex flex-col gap-2 ">
             <p className="font-bold">Companies</p>
             <a className="font-light cursor-pointer">Hire Developers</a>
@@ -68,7 +69,7 @@ export default function FooterOne() {
         </div>
       </div>
       <div className="pt-16">
-        <div className="flex flex-row gap-3 md:pl-10 sm:pl-5 ">
+        <div className="flex flex-row gap-3  sm:pl-5 ">
           <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M26.25 14.9981C26.2496 12.8483 25.6333 10.7435 24.4739 8.93306C23.3145 7.12261 21.6606 5.68227 19.7081 4.78255C17.7555 3.88284 15.5861 3.56143 13.4566 3.85639C11.327 4.15134 9.32658 5.0503 7.69208 6.44683C6.05757 7.84337 4.85745 9.67901 4.23378 11.7364C3.61011 13.7938 3.58902 15.9869 4.173 18.0559C4.75698 20.1249 5.92158 21.9833 7.52892 23.411C9.13626 24.8388 11.119 25.776 13.2425 26.1119V18.2481H10.3863V14.9981H13.2425V12.5194C13.1814 11.9406 13.2484 11.3555 13.4386 10.8055C13.6287 10.2555 13.9375 9.75407 14.343 9.33664C14.7485 8.91922 15.2408 8.59605 15.7851 8.39001C16.3293 8.18398 16.9122 8.10012 17.4925 8.14438C18.3363 8.15618 19.1782 8.22971 20.0112 8.36438V11.1306H18.5913C18.3495 11.0983 18.1036 11.1208 17.8718 11.1965C17.6399 11.2722 17.4281 11.399 17.252 11.5677C17.0759 11.7364 16.94 11.9426 16.8544 12.1709C16.7688 12.3993 16.7357 12.644 16.7575 12.8869V14.9981H19.8825L19.3825 18.2481H16.7575V26.1094C19.4036 25.6909 21.8135 24.3418 23.5536 22.305C25.2937 20.2681 26.2499 17.6771 26.25 14.9981Z"
@@ -100,18 +101,19 @@ export default function FooterOne() {
             ></path>
           </svg>
         </div>
-        <div className=" text-white flex md:flex-col-reverse justify-between pt-6 sm:flex-col-reverse">
-          <div className="md:pl-10 sm:pl-5 leading-9">
+        <div className=" text-white lg:flex-row flex md:flex-col-reverse justify-between pt-6 sm:flex-col-reverse">
+          <div className=" sm:pl-5 leading-9">
             <p className="text-xl">© 2023 Turing</p>
             <p className="text-[gray]">1900 Embarcadero Road Palo Alto, CA, 94303</p>
           </div>
-          <div className="flex gap-5 lg:pr-32 sm:pl-5 sm:pt-1 sm:pb-5 md:pl-10 md:pb-2 md:text-[gray] ">
+          <div className="flex gap-5 lg:pr-32 lg:mt-6 sm:pl-5 sm:pt-1 sm:pb-5  md:pb-2 md:text-[gray]">
             <a className="cursor-pointer">Sitemap</a>
             <a className="cursor-pointer">Terms of Service</a>
             <a className="cursor-pointer">Privacy Policy</a>
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

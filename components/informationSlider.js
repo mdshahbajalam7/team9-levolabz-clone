@@ -64,7 +64,8 @@ export default function InformationSlider() {
   };
 
   return (
-    <div className="bg-white pt-36">
+    <div className="w-[100%]">
+    <div className="lg:w-[80%] md:w-[90%] mx-auto bg-white pt-36">
       <div className="flex justify-around gap-4">
         <div className="cursor-pointer">
           <BsChevronCompactLeft
@@ -72,8 +73,8 @@ export default function InformationSlider() {
             onClick={prevSlide}
           />
         </div>
-        <div className="text-[30px] md:text-[25px] sm:text-[20px] mt-[-20px] px-10 text-center ">
-          <p className="leading-none text-[gray] italic">
+        <div className=" lg:text-[35px] md:text-[25px] sm:text-[20px] mt-[-20px] px-10 text-center ">
+          <p className="leading-none italic">
             {infoSlide[currentIndex].text}
             <br />
             {infoSlide[currentIndex].text2}
@@ -103,6 +104,7 @@ export default function InformationSlider() {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 }

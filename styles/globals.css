@@ -4,9 +4,9 @@
 @tailwind utilities;
 
 
-
 /* body{
-  overflow-x: hidden;
+  width: 80%;
+  margin: auto;
 } */
 
 /* main{

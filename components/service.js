@@ -11,7 +11,7 @@ export default function Service() {
           height={"0"}
         />
       </div>
-      <div className="pt-20 sm:pl-5 md:pl-10 lg:w-[40%] lg:-ml-5">
+      <div className="pt-20 sm:pl-5 lg:w-[40%] lg:-ml-5">
         <h1>CLIENTS</h1>
         <h1 className="text-4xl font-semibold leading-normal sm:text-[22px] md:text-[30px]">
           Get the new standard in tech Services

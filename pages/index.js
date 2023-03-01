@@ -39,6 +39,7 @@ export default function Home() {
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
       </Head>
+      {/* <div className="lg:w-[80%] lg:mx-[auto]"> */}
       <Navbar />
       <Banner />
       <Company />
@@ -54,6 +55,7 @@ export default function Home() {
       <InformationSlider />
       <RemoteDevelopre />
       <Footer />
+      {/* </div> */}
     </>
   );
 }

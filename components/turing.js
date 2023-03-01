@@ -7,8 +7,8 @@ import { AiOutlinePlayCircle } from "react-icons/ai";
 function Turing() {
   return (
     <>
-      <div className="lg:w-[84%] lg:mx-[auto] lg:mt-12 md:w-[600.2px] md:ml-8 md:text-[20px]  sm:w-[343.2px] sm:text-[20px] sm:mt-20 sm:ml-8">
-        <h2 className=" md:ml-2 sm:font-semibold  lg:text-[40px] sm:-ml-4 sm:text-[22px]">
+      <div className="lg:w-[80%]  lg:mx-[auto] lg:mt-12 md:w-[600.2px] md:ml-8 md:text-[20px]  sm:w-[343.2px] sm:text-[20px] sm:mt-20 sm:ml-8">
+        <h2 className="  sm:font-semibold  lg:text-[40px] sm:-ml-4 sm:text-[22px]">
           Turing combines global reach and AI to deliver your ideal remote
           developers
         </h2>
@@ -29,13 +29,13 @@ function Turing() {
           </div>
           <div className="lg:ml-[10px]">
             <ul className="list-disc ml-5">
-              <li className="font-serif lg:text-[16px] lg:mt-[10px] md:ml-5 md:text-[16px] sm:ml-5 md:mt-3 sm:mt-3">
+              <li className=" lg:text-[16px] lg:mt-[10px] md:ml-5 md:text-[16px] sm:ml-5 md:mt-3 sm:mt-3">
                 Role
               </li>
-              <li className="font-serif lg:text-[16px] lg:mt-[10px] md:ml-5 sm:ml-5 md:text-[16px] md:mt-3 sm:mt-3">
+              <li className=" lg:text-[16px] lg:mt-[10px] md:ml-5 sm:ml-5 md:text-[16px] md:mt-3 sm:mt-3">
                 Tech Stack
               </li>
-              <li className="font-serif lg:text-[16px] lg:mt-[10px]  md:ml-5 sm:ml-5 md:text-[16px] md:mt-3 sm:mt-3">
+              <li className=" lg:text-[16px] lg:mt-[10px]  md:ml-5 sm:ml-5 md:text-[16px] md:mt-3 sm:mt-3">
                 Seniority Level
               </li>
             </ul>
@@ -43,7 +43,7 @@ function Turing() {
         </div>
         <div className="overflow-hidden shadow-xl lg:w-[115%] lg:h-[520px] lg:bg-white rounded-lg lg:mt-0 md:w-[100%] md:bg-white sm:w-[100%] sm:h-[550px] sm:mt-10 sm:bg-white">
           <div className="w-[90%] mx-[auto] text-center h-[50px] mt-4">
-            <h5 className=" text-[20px] lg:font-serif md:font-bold sm:font-bold">
+            <h5 className=" text-[20px] lg: md:font-bold sm:font-bold">
               {" "}
               Our <span className="text-[#2e6edf]">
                 Talent Cloud
@@ -61,7 +61,7 @@ function Turing() {
                 </svg>
               </div>
               <div className="w-[100%]">
-                <span className="text-[#2e6edf] font-serif text-[16px]">
+                <span className="text-[#2e6edf]  text-[16px]">
                   Global Sourcing
                 </span>
               </div>
@@ -78,7 +78,7 @@ function Turing() {
                 </svg>
               </div>
               <div className="w-[100%] ">
-                <span className="text-[#2e6edf] font-serif text-[16px]">
+                <span className="text-[#2e6edf]  text-[16px]">
                   Intelligent Vetting
                 </span>
               </div>
@@ -95,7 +95,7 @@ function Turing() {
                 </svg>
               </div>
               <div className="w-[100%] ">
-                <span className="text-[#2e6edf] font-serif text-[16px]">
+                <span className="text-[#2e6edf]  text-[16px]">
                   Extensive Matching
                 </span>
               </div>
@@ -112,7 +112,7 @@ function Turing() {
                 </svg>
               </div>
               <div className="w-[100%] ">
-                <span className="text-[#2e6edf] font-serif text-[16px]">
+                <span className="text-[#2e6edf]  text-[16px]">
                   Payments Compliance
                 </span>
               </div>
@@ -129,14 +129,14 @@ function Turing() {
                 </svg>
               </div>
               <div className="w-[100%] ">
-                <span className="text-[#2e6edf] font-serif text-[16px]">
+                <span className="text-[#2e6edf]  text-[16px]">
                   Automated On-The-Job
                   Quality Control
                 </span>
               </div>
             </div>
           </ul>
-          <button className=" font-serif lg:w-[74%] lg:ml-16 lg:h-[50px] lg:pl-[93px] items-center bg-[#2e6edf] text-[#ffffff] text-[20px] ml-[15%] mt-5 flex md:pl-[26%] md:gap-3 sm:pl-[15%] sm:gap-3 border-none rounded-lg cursor-pointer sm:rounded-md md:w-[80%] md:ml-[10%] sm:ml-8 sm:h-[50px] sm:w-[85%]">
+          <button className="  lg:w-[74%] lg:ml-16 lg:h-[50px] lg:pl-[93px] items-center bg-[#2e6edf] text-[#ffffff] text-[20px] ml-[15%] mt-5 flex md:pl-[26%] md:gap-3 sm:pl-[15%] sm:gap-3 border-none rounded-lg cursor-pointer sm:rounded-md md:w-[80%] md:ml-[10%] sm:ml-8 sm:h-[50px] sm:w-[85%]">
             <span>
               <AiOutlinePlayCircle className="w-[100%] h-[25px]" />
             </span>
@@ -152,19 +152,19 @@ function Turing() {
             />
           </div>
           <div className="lg:ml-5">
-            <h5 className="sm:font-bold font-serif lg:text-[18px] lg:m-[24px] md:text-[19px] md:w-[60%] md:ml-5 md:mx-[auto] sm:text-[19px] sm:w-[60%] sm:ml-5 sm:mx-[auto]">
+            <h5 className="sm:font-bold  lg:text-[18px] lg:m-[24px] md:text-[19px] md:w-[60%] md:ml-5 md:mx-[auto] sm:text-[19px] sm:w-[60%] sm:ml-5 sm:mx-[auto]">
               Your ideal developer
             </h5>
           </div>
           <div className="lg:ml-10 md:ml-5 sm:ml-5 ">
             <ul className="list-disc ml-5 md:mt-4 lg:mt-[-10px]">
-              <li className="font-serif lg:w-[240px] lg:h-[24px] lg:text-[19px] md:w-[240px] md:h-[24px] md:text-[18px] sm:w-[240px] sm:h-[24px] sm:text-[18px]">
+              <li className=" font-semibold lg:w-[240px] lg:h-[24px] lg:text-[19px] md:w-[240px] md:h-[24px] md:text-[18px] sm:w-[240px] sm:h-[24px] sm:text-[18px]">
                 Typical engagement:
               </li>
-              <h5 className="font-serif text-[19px] ml-2 mt-4 mb-4">
+              <h5 className=" text-[19px] ml-2 mt-4 mb-4">
                 Full-time
               </h5>
-              <li className="font-serif lg:w-[240px] lg:h-[24px] lg:text-[19px] md:w-[240px] md:h-[24px] md:text-[18px] sm:w-[240px] sm:h-[24px] sm:text-[18px]">
+              <li className=" font-semibold lg:w-[240px] lg:h-[24px] lg:text-[19px] md:w-[240px] md:h-[24px] md:text-[18px] sm:w-[240px] sm:h-[24px] sm:text-[18px]">
                 Time zone overlap:
               </li>
               <h5 className="font-sans text-[19px] ml-2 mt-2 mb-4">4 hours</h5>

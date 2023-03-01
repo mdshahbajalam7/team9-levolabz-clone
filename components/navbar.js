@@ -17,7 +17,8 @@ export default function Navbar() {
   };
 
   return (
-    <div className="top-0 sticky bg-white scroll drop-shadow-md z-50 pb-4">
+    <div className="w-[100%] top-0 sticky bg-white scroll drop-shadow-sm z-50 pb-3">
+    <div className=" lg:w-[80%] mx-[auto]">
       <div className="flex justify-between  ">
         <div className="pl-5 pt-5">
           <svg
@@ -49,7 +50,7 @@ export default function Navbar() {
           <Bars3Icon className="h-8 m-2 sm:mt-6 lg:hidden" onClick={dropDown} />
         )}
 
-        <div className="hidden lg:flex lg:flex-row lg:gap-7 lg:pr-[100px] lg:text-xl lg:pt-5 cursor-pointer">
+        <div className="hidden lg:flex lg:flex-row lg:gap-12 lg:pr-[10px] lg:text-[18px] lg:pt-7 cursor-pointer">
           <p className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2  ">
             Apply for Jobs
           </p>
@@ -112,6 +113,7 @@ export default function Navbar() {
           </div>
         </div>
       )}
+    </div>
     </div>
   );
 }
