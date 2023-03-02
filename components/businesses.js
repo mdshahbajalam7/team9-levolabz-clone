@@ -6,11 +6,11 @@ import thumbsup from "../public/image/Businesses/thumbsup.webp";
 function Businesses() {
   return (
     <div>
-      <div className="lg:w-[100%] md:w-[100%] sm:w-[98%] bg-gray-100 mt-4 lg:h-[450px] md:h-[400px] sm:h-[720px] py-5">
+      <div className="lg:w-[100%] md:w-[100%] sm:w-[98%] bg-gray-100 mt-10 lg:h-[450px] md:h-[770px] sm:h-[740px] py-5">
         <h3 className="font-semibold md:ml-5 lg:w-[431.23px] lg:text-[28px] lg:mx-[auto] lg:mt-[40px] md:w-[90%] md:text-[28px] md:flex md:justify-start sm:w-[97%] sm:text-[24px] sm:ml-3 sm:flex sm:justify-start">
           Why businesses choose Turing
         </h3>
-        <div className="lg:w-[65%] lg:mx-[auto] lg:grid lg:grid-cols-3 lg:justify-between lg:ga-[10px] lg:my-14 md:w-[95%] md:grid md:grid-cols-3 md:justify-start md:gap-[10px] md:mt-2 sm:w-[95%] sm:grid sm:grid-cols-1 sm:justify-start sm:gap-[10px] sm:mt-4">
+        <div className="lg:w-[65%] lg:mx-[auto] lg:grid lg:grid-cols-3 lg:justify-between lg:ga-[10px] lg:my-14 md:w-[95%] md:grid md:grid-cols-1 md:justify-start md:gap-[10px] md:mt-2 sm:w-[95%] sm:grid sm:grid-cols-1 sm:justify-start sm:gap-[10px] sm:mt-4">
           <div className="lg:w-[55%] md:w-[80%] md:mt-5 md:ml-5 sm:w-[55%] sm:mt-5 sm:ml-5">
             <div className="lg:flex md:flex sm:flex">
               <Image
@@ -22,18 +22,18 @@ function Businesses() {
                 Speed
               </h3>
             </div>
-            <p className=" sm:font-semibold md:font-semibold  font-sans lg:mt-[12px] lg:text-[40px] lg:text-[#1fb70b] lg:m-[0 0 8px] sm:text-[40px] sm:mt-[12px] sm:text-[#1fb70b]">
+            <p className=" sm:font-semibold md:font-semibold lg:mt-[12px] lg:text-[40px] lg:text-[#1fb70b] lg:m-[0 0 8px] sm:text-[40px] sm:mt-[12px] sm:text-[#1fb70b]">
               4 days
             </p>
-            <p className="lg:text-[22px] md:text-[22px] sm:text-[20px] lg:w-[130%] ">
+            <p className="lg:text-[22px] md:text-[22px] sm:text-[20px] lg:w-[130%] md:w-[50%]">
               to fill{" "}
-              <span className=" lg:text-[22px] lg:text-[#1fb70b] sm:text-[20px] sm:text-[#1fb70b] md:text-[22px] md:text-[#1fb70b]">
+              <span className=" font-semibold lg:text-[22px] lg:text-[#1fb70b] sm:text-[20px] sm:text-[#1fb70b] md:text-[22px] md:text-[#1fb70b]">
                 most roles
               </span>
               , sometimes same day.
             </p>
           </div>
-          <div className="lg:w-[100%] md:ml-5 sm:ml-5 md:w-[100%] md:mt-[20px] sm:w-[100%] sm:mt-[20px]">
+          <div className="lg:w-[100%] md:ml-5 sm:ml-5 md:w-[100%] md:mt-[30px] sm:w-[100%] sm:mt-[20px]">
             <div className="lg:flex md:flex sm:flex">
               <Image
                 src={Stopwatch}
@@ -52,12 +52,12 @@ function Businesses() {
             </p>
             <p className="lg:text-[22px] md:text-[22px] sm:text-[20px] lg:w-[130%]">
               saved{" "}
-              <span className="lg:text-[22px] lg:text-[#1fb70b] md:text-[22px] md:text-[#1fb70b] sm:text-[22px] sm:text-[#1fb70b]">
+              <span className="font-semibold lg:text-[22px] lg:text-[#1fb70b] md:text-[22px] md:text-[#1fb70b] sm:text-[22px] sm:text-[#1fb70b]">
               per developer 
               </span> on interviewing.
             </p>
           </div>
-          <div className=" lg:ml-[50%]  lg:w-[40%] md:ml-[40%] sm:ml-5 md:w-[50%] md:mt-[20px] sm:w-[40%] sm:mt-[20px] ">
+          <div className="lg:ml-[50%]  lg:w-[40%]  sm:ml-5 md:w-[50%] md:mt-[30px] sm:w-[40%] sm:mt-[20px] ">
             <div className="lg:flex md:flex sm:flex">
               <Image
                 src={thumbsup}
@@ -74,7 +74,7 @@ function Businesses() {
             <p className="lg:text-[22px] md:text-[22px] sm:text-[20px]">
               engagement
             </p>
-            <p className="md:w-[140%] lg:text-[22px] lg:text-[#1fb70b] md:text-[22px]  md:text-[#1fb70b] sm:text-[22px] sm:text-[#1fb70b]">
+            <p className="font-semibold md:w-[140%] lg:text-[22px] lg:text-[#1fb70b] md:text-[22px]  md:text-[#1fb70b] sm:text-[22px] sm:text-[#1fb70b]">
               success rate.
             </p>
           </div>

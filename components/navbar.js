@@ -20,7 +20,7 @@ export default function Navbar() {
     <div className="w-[100%] top-0 sticky bg-white scroll drop-shadow-sm z-50 pb-3">
     <div className=" lg:w-[80%] mx-[auto]">
       <div className="flex justify-between  ">
-        <div className="pl-5 pt-5">
+        <div className="pl-4 pt-5">
           <svg
             width="124"
             height="45"

@@ -6,9 +6,9 @@ function Developers() {
   return (
     <>
       <div className="pt-10 w-[100%] lg:h-[620px]  md:h-[600px] sm:h-[645px]  bg-gradient-to-r from-[#4c63c4] to-[#3e85e2]">
-        <div className="mx-[auto] lg:w-[78%]  py-[6%]  lg:grid lg:grid-cols-2 lg:items-center lg:gap-0 md:w-[90%]  md:grid md:grid-cols-2 md:items-center md:gap-0 sm:w-[90%]  sm:grid sm:grid-cols-2 sm:items-center sm:gap-0">
+        <div className="mx-[auto] lg:w-[78%]  py-[6%]  lg:grid lg:grid-cols-2 lg:items-center lg:gap-0 md:w-[97%]  md:grid md:grid-cols-2 md:items-center md:gap-0 sm:w-[90%]  sm:grid sm:grid-cols-2 sm:items-center sm:gap-0">
           <div className="z-10 lg:w-[100%] mt-[0%]">
-            <p className=" leading-tight font-sans lg:mt-1 lg:text-[48px] text-[#ffffff] md:mt-3 md:text-[48px] sm:w-[200%] sm:mt-3 sm:text-[36px]">
+            <p className=" leading-tight font-sans lg:mt-1 lg:text-[48px] text-[#ffffff] md:mt-3 md:text-[48px] sm:w-[200%] sm:mt-10 sm:text-[36px]">
               <span className="font-semibold">2 Million+ </span> developers{" "}
               <br />
               from
@@ -54,10 +54,10 @@ function Developers() {
               </div>
             </div>
           </div>
-          <div className=" lg:mt-16 md:mt-10 sm:-mt-[30%] lg:ml-[30%] lg:h-[480px] overflow-hidden absolute">
+          <div className="lg:mt-16 md:mt-[-37%] sm:mt-[-120%] lg:ml-[30%] lg:h-[480px] overflow-hidden absolute">
             <Image
               src={map}
-              className="scale-x-110 lg:w-[100%] lg:h-[100%] inset-0"
+              className="scale-x-110 lg:w-[100%] lg:h-[100%]  inset-0"
               alt="map"
             />
           </div>

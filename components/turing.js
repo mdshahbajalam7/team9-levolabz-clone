@@ -7,14 +7,14 @@ import { AiOutlinePlayCircle } from "react-icons/ai";
 function Turing() {
   return (
     <>
-      <div className="lg:w-[80%]  lg:mx-[auto] lg:mt-12 md:w-[600.2px] md:ml-8 md:text-[20px]  sm:w-[343.2px] sm:text-[20px] sm:mt-20 sm:ml-8">
+      <div className="lg:w-[76.5%] lg:mx-[auto] lg:mt-12 md:w-[600.2px] md:ml-8 md:text-[20px] sm:w-[343.2px] sm:text-[20px] sm:mt-20 sm:ml-8">
         <h2 className="  sm:font-semibold  lg:text-[40px] sm:-ml-4 sm:text-[22px]">
           Turing combines global reach and AI to deliver your ideal remote
           developers
         </h2>
       </div>
       <div className="lg:w-[86%] mx-[auto] lg:grid lg:grid-cols-3 lg:gap-3 lg:mt-14 lg:justify-items-center md:w-[95%] md:grid md:grid-cols-1 md:gap-3 md:justify-items-center md:pt-3 sm:w-[95%] sm:grid sm:grid-cols-1 sm:gap-3 sm:justify-items-center">
-        <div className="overflow-hidden shadow-md lg:w-[80%] lg:h-[523px] lg:bg-white lg:rounded-lg md:w-[100%] md:h-[700px] md:mx-[auto] md:bg-white md:rounded-lg lg:mt-0  md:mt-10 sm:mt-10 sm:w-[100%] sm:h-[560px] sm:bg-white sm:rounded-lg">
+        <div className="overflow-hidden shadow-md lg:w-[80%] lg:h-[523px] lg:bg-white lg:rounded-2xl md:w-[100%] md:h-[700px] md:mx-[auto] md:bg-white md:rounded-2xl lg:mt-0  md:mt-10 sm:mt-10 sm:w-[100%] sm:h-[560px] sm:bg-white sm:rounded-2xl">
           <div className="lg:flex lg:justify-center lg:items-center lg:mt-5">
             <Image
               src={Inteligent_Vetting}
@@ -41,7 +41,7 @@ function Turing() {
             </ul>
           </div>
         </div>
-        <div className="overflow-hidden shadow-xl lg:w-[115%] lg:h-[520px] lg:bg-white rounded-lg lg:mt-0 md:w-[100%] md:bg-white sm:w-[100%] sm:h-[550px] sm:mt-10 sm:bg-white">
+        <div className="overflow-hidden lg:rounded-2xl md:rounded-2xl sm:rounded-2xl sm:shadow-md  lg:w-[115%] lg:h-[520px] lg:bg-white rounded-3xl lg:mt-0 md:w-[100%] md:bg-white sm:w-[100%] sm:h-[550px] sm:mt-10 sm:bg-white">
           <div className="w-[90%] mx-[auto] text-center h-[50px] mt-4">
             <h5 className=" text-[20px] lg: md:font-bold sm:font-bold">
               {" "}
@@ -128,7 +128,7 @@ function Turing() {
                   ></path>
                 </svg>
               </div>
-              <div className="w-[100%] ">
+              <div className="w-[100%]">
                 <span className="text-[#2e6edf]  text-[16px]">
                   Automated On-The-Job
                   Quality Control
@@ -136,14 +136,14 @@ function Turing() {
               </div>
             </div>
           </ul>
-          <button className="  lg:w-[74%] lg:ml-16 lg:h-[50px] lg:pl-[93px] items-center bg-[#2e6edf] text-[#ffffff] text-[20px] ml-[15%] mt-5 flex md:pl-[26%] md:gap-3 sm:pl-[15%] sm:gap-3 border-none rounded-lg cursor-pointer sm:rounded-md md:w-[80%] md:ml-[10%] sm:ml-8 sm:h-[50px] sm:w-[85%]">
+          <button className="lg:w-[74%] lg:ml-16 lg:h-[50px] lg:pl-[93px] items-center bg-[#2e6edf] text-[#ffffff] text-[20px] ml-[15%] mt-5 flex md:pl-[26%] md:gap-3 sm:pl-[15%] sm:gap-3 border-none rounded-lg cursor-pointer sm:rounded-md md:w-[80%] md:ml-[10%] sm:ml-8 sm:h-[50px] sm:w-[85%]">
             <span>
               <AiOutlinePlayCircle className="w-[100%] h-[25px]" />
             </span>
             See how it works
           </button>
         </div>
-        <div className="overflow-hidden shadow-md lg:w-[80%] lg:h-[523px] lg:bg-white lg:rounded-lg md:w-[100%] md:h-[700px] md:mx-[auto] md:bg-white md:rounded-lg lg:mt-0  md:mt-10 sm:mt-10 sm:w-[100%] sm:h-[560px] sm:bg-white sm:rounded-lg">
+        <div className="overflow-hidden shadow-md lg:w-[80%] lg:h-[523px] lg:bg-white lg:rounded-2xl  md:w-[100%] md:h-[700px] md:mx-[auto] md:bg-white md:rounded-2xl lg:mt-0  md:mt-10 sm:mt-10 sm:w-[100%] sm:h-[500px] sm:bg-white sm:rounded-2xl">
           <div className="lg:flex lg:justify-center lg:items-center">
             <Image
               src={hero_easy}
@@ -151,6 +151,8 @@ function Turing() {
               className="lg:w-[300px] lg:h-[220px] md:w-[90%] md:mx-[auto] sm:mx-[auto] md:h-[450px] sm:w-[85%] sm:h-[270px] sm:flex sm:items-center"
             />
           </div>
+
+          
           <div className="lg:ml-5">
             <h5 className="sm:font-bold  lg:text-[18px] lg:m-[24px] md:text-[19px] md:w-[60%] md:ml-5 md:mx-[auto] sm:text-[19px] sm:w-[60%] sm:ml-5 sm:mx-[auto]">
               Your ideal developer
@@ -158,7 +160,7 @@ function Turing() {
           </div>
           <div className="lg:ml-10 md:ml-5 sm:ml-5 ">
             <ul className="list-disc ml-5 md:mt-4 lg:mt-[-10px]">
-              <li className=" font-semibold lg:w-[240px] lg:h-[24px] lg:text-[19px] md:w-[240px] md:h-[24px] md:text-[18px] sm:w-[240px] sm:h-[24px] sm:text-[18px]">
+              <li className="sm:mt-2 font-semibold lg:w-[240px] lg:h-[24px] lg:text-[19px] md:w-[240px] md:h-[24px] md:text-[18px] sm:w-[240px] sm:h-[24px] sm:text-[18px]">
                 Typical engagement:
               </li>
               <h5 className=" text-[19px] ml-2 mt-4 mb-4">

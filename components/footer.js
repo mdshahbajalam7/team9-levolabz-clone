@@ -28,8 +28,8 @@ export default function FooterOne() {
           </svg>
         </div>
         <div className="grid gap-[70px] sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-4 pl-4 sm:pl-5">
-          <div className="text-white flex flex-col gap-2 ">
-            <p className="font-bold">Companies</p>
+          <div className="text-white lg:text-[15px] flex flex-col gap-2 ">
+            <p className="font-bold ">Companies</p>
             <a className="font-light cursor-pointer">Hire Developers</a>
             <a className="font-light cursor-pointer">Hire Development Team</a>
             <a className="font-light cursor-pointer">Book a Call</a>
@@ -42,7 +42,7 @@ export default function FooterOne() {
             <a className="font-light cursor-pointer">Interview Q/A</a>
             <a className="font-light cursor-pointer">Hiring Resources</a>
           </div>
-          <div className="text-white flex flex-col gap-2">
+          <div className="text-white flex flex-col gap-2 lg:text-[15px]">
             <p className="font-bold">Developers</p>
             <a className="font-light cursor-pointer">Apply for Jobs</a>
             <a className="font-light cursor-pointer">Developer Login</a>
@@ -52,14 +52,14 @@ export default function FooterOne() {
             <a className="font-light cursor-pointer">Resume Guide</a>
             <a className="font-light cursor-pointer">Jobs for LatAm</a>
           </div>
-          <div className="text-white flex flex-col gap-2">
+          <div className="text-white flex flex-col gap-2 lg:text-[15px]">
             <p className="font-bold">Company</p>
             <a className="font-light cursor-pointer">Blog</a>
             <a className="font-light cursor-pointer">Press</a>
             <a className="font-light cursor-pointer">About Us</a>
             <a className="font-light cursor-pointer">Careers</a>
           </div>
-          <div className="text-white flex flex-col gap-2">
+          <div className="text-white flex flex-col gap-2 lg:text-[15px]">
             <p className="font-bold">Contact</p>
             <a className="font-light cursor-pointer">Contact Us</a>
             <a className="font-light cursor-pointer">Help Center</a>
@@ -103,10 +103,10 @@ export default function FooterOne() {
         </div>
         <div className=" text-white lg:flex-row flex md:flex-col-reverse justify-between pt-6 sm:flex-col-reverse">
           <div className=" sm:pl-5 leading-9">
-            <p className="text-xl">© 2023 Turing</p>
-            <p className="text-[gray]">1900 Embarcadero Road Palo Alto, CA, 94303</p>
+            <p className="lg:text-[15px]">© 2023 Turing</p>
+            <p className="text-[gray] lg:text-[15px]">1900 Embarcadero Road Palo Alto, CA, 94303</p>
           </div>
-          <div className="flex gap-5 lg:pr-32 lg:mt-6 sm:pl-5 sm:pt-1 sm:pb-5  md:pb-2 md:text-[gray]">
+          <div className="lg:text-[15px] flex gap-5 lg:pr-32 lg:mt-6 sm:pl-5 sm:pt-1 sm:pb-5  md:pb-2 md:text-[gray]">
             <a className="cursor-pointer">Sitemap</a>
             <a className="cursor-pointer">Terms of Service</a>
             <a className="cursor-pointer">Privacy Policy</a>
