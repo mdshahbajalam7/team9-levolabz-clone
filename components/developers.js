@@ -54,7 +54,7 @@ function Developers() {
               </div>
             </div>
           </div>
-          <div className="lg:mt-16 md:mt-[-37%] sm:mt-[-120%] lg:ml-[30%] lg:h-[480px] overflow-hidden absolute">
+          <div className="lg:mt-16 md:mt-[-35%] sm:mt-[-100%] lg:ml-[30%] lg:h-[480px] overflow-hidden absolute">
             <Image
               src={map}
               className="scale-x-110 lg:w-[100%] lg:h-[100%]  inset-0"
