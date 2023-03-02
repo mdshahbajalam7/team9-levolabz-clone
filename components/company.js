@@ -7,7 +7,7 @@ export default function Company() {
       <p className="pt-9">
         Join 400+ companies trusting Turing for their remote engineering needs.
       </p>
-      <div className="grid lg:grid-flow-col sm:grid-rows justify-center gap-8 pt-10 ">
+      <div className="grid lg:grid-flow-col sm:grid-rows md:grid-flow-col md:gap-7 justify-center sm:gap-8 lg:gap-12 pt-10 ">
         <svg
           width="88"
           height="28"
