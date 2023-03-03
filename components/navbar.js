@@ -46,7 +46,7 @@ export default function Navbar() {
             </svg>
           </div>
           {nav ? (
-            <XMarkIcon className="h-8 m-2 xl:hidden" onClick={dropDownClose} />
+            <XMarkIcon className="h-8 m-2 sm:mt-5 xl:hidden" onClick={dropDownClose} />
           ) : (
             <Bars3Icon
               className="h-8 m-2 sm:mt-6 xl:hidden"
@@ -111,7 +111,7 @@ export default function Navbar() {
           </div>
         </div>
         {nav && (
-          <div className="absolute bg-white w-full overflow-y-scroll">
+          <div className="absolute bg-white sm:w-[94%] md:w-[96%] w-full overflow-y-scroll">
             <div className="flex flex-col px-3 gap-[10px] mt-4">
               <button className="border border-blue-600 rounded-md py-3 font-semibold text-lg text-blue-600">
                 Hire a Team
