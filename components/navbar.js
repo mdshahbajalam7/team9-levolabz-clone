@@ -5,6 +5,7 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/solid";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import Image from "next/image";
 
 export default function Navbar() {
   const [nav, setNav] = useState(false);
@@ -21,8 +22,8 @@ export default function Navbar() {
     <div className="w-[100%] top-0 sticky bg-white scroll drop-shadow-sm z-50 px-5 pb-2 xl:px-0 xl:py-3 xl:pt-5">
       <div className=" lg:w-[80%] mx-[auto]">
         <div className="flex justify-between  ">
-          <div className="pl-3 pt-3 xl:pt-1 pb-2">
-            <svg
+          <div className="pl-3 pt-2 xl:pt-1 pb-2">
+            {/* <svg
               width="124"
               height="45"
               viewBox="0 0 124 45"
@@ -43,7 +44,12 @@ export default function Navbar() {
                 d="M28.9657 0C26.3686 2.36163 24.0052 4.725 21.6401 6.85116C19.4546 8.83571 16.6729 10.0398 13.7302 10.275C9.24244 10.5122 4.75465 10.275 0.148256 10.275V0H28.9657Z"
                 fill="#212121"
               ></path>
-            </svg>
+            </svg> */}
+            <Image
+            src="/image/logo.png"
+            alt="logo"
+            width ={50}
+            height={0} />
           </div>
           {nav ? (
             <XMarkIcon className="h-8 m-2 sm:mt-5 xl:hidden" onClick={dropDownClose} />
@@ -56,32 +62,52 @@ export default function Navbar() {
 
           <div className="hidden xl:flex xl:flex-row xl:gap-12 xl:pr-[10px] pt-3 xl:text-[18px] cursor-pointer">
             <p className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2  font-light">
-              Apply for Jobs
+              How it Works
             </p>
             <p className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2  font-light">
-              Hire Developers
+              Portfolio
             </p>
             <p className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2  font-light">
-              Hire a Team
+              Contact Us
             </p>
             <div className=" border-t-0 border-r-0 border-l-0 relative group/item">
               <p className="flex gap-2 items-center font-light pb-3">
-                Explore Services{" "}
+               Services We Offer{" "}
                 <ChevronDownIcon className="w-4 fill-blue-500 group-hover/item:rotate-180 border-2 border-blue-500 rounded-full" />
               </p>
 
               <div className="absolute w-80 bg-white border border-gray-400 px-4 origin-center -right-[80%] group/edit invisible xl:group-hover/item:visible">
                 <p className="flex items-center justify-between py-3 font-400 border-b border-gray-300 text-gray-500 hover:text-blue-500">
-                  AI Services{" "}
-                  <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
+                Web Development{" "}
+                 
                 </p>
                 <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
-                  Cloud Engineering{" "}
-                  <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
+                Mobile Applications{" "}
+                 
                 </p>
                 <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
-                  Application Engineering Services{" "}
-                  <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
+                Custom Softwares{" "}
+                 
+                </p>
+                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
+                UI/UX{" "}
+                 
+                </p>
+                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
+                Graphic Design{" "}
+                 
+                </p>
+                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
+                SEO Optimization{" "}
+                 
+                </p>
+                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
+                Performance Marketing{" "}
+                 
+                </p>
+                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
+                Staff Augmentation{" "}
+                 
                 </p>
               </div>
             </div>
