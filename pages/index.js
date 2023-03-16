@@ -17,8 +17,6 @@ import Bestdevelopers from "@/components/bestdevelopers";
 import Navbar from "@/components/navbar";
 import Contact from "@/components/Contact";
 import Footers from "@/components/Footers";
-import Carousel from "@/components/Carousel";
-
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -58,12 +56,11 @@ export default function Home() {
       <InformationSlider />
       <RemoteDevelopre />
       {/* <Footer /> */}
-      
+
       {/* new components */}
       <Contact/>
       <Footers/>
 
-      {/* <Carousel/> */}
 
     </>
   );

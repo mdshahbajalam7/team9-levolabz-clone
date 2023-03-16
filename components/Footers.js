@@ -10,12 +10,12 @@ const Footers = () => {
             Contact
           </h1>
           <p className="mt-3 hover:text-[green] cursor-pointer">
-            <a
+            {/* <a
               href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=info@eflairwebtech.com"
               target="_blank"
-            >
+            > */}
               info@eflairwebtech.com
-            </a>
+            {/* </a> */}
           </p>
           <p className="hover:text-[green] cursor-pointer mt-5">
             USA: +16789994652
