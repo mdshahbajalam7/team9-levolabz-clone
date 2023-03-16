@@ -62,13 +62,13 @@ export default function Navbar() {
 
           <div className="hidden xl:flex xl:flex-row xl:gap-12 xl:pr-[10px] pt-3 xl:text-[18px] cursor-pointer">
             <p className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2  font-light">
-              Apply for Jobs
+              How it Works
             </p>
             <p className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2  font-light">
-              Hire Developers
+              Portfolio
             </p>
             <p className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2  font-light">
-              Hire a Team
+              Contact Us
             </p>
             <div className=" border-t-0 border-r-0 border-l-0 relative group/item">
               <p className="flex gap-2 items-center font-light pb-3">
@@ -79,35 +79,35 @@ export default function Navbar() {
               <div className="absolute w-80 bg-white border border-gray-400 px-4 origin-center -right-[80%] group/edit invisible xl:group-hover/item:visible">
                 <p className="flex items-center justify-between py-3 font-400 border-b border-gray-300 text-gray-500 hover:text-blue-500">
                 Web Development{" "}
-                  <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
+                 
                 </p>
                 <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
                 Mobile Applications{" "}
-                  <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
+                 
                 </p>
                 <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
                 Custom Softwares{" "}
-                  <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
+                 
                 </p>
                 <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
                 UI/UX{" "}
-                  <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
+                 
                 </p>
                 <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
                 Graphic Design{" "}
-                  <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
+                 
                 </p>
                 <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
                 SEO Optimization{" "}
-                  <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
+                 
                 </p>
                 <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
                 Performance Marketing{" "}
-                  <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
+                 
                 </p>
                 <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
                 Staff Augmentation{" "}
-                  <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
+                 
                 </p>
               </div>
             </div>
