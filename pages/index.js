@@ -73,7 +73,7 @@ const scrolltoSec = () => {
       <InformationSlider />
       <RemoteDevelopre />
       {/* <Footer /> */}
-      
+
       {/* new components */}
       <div ref = {scrollRef}>
       <Contact />
@@ -81,7 +81,6 @@ const scrolltoSec = () => {
 
       <Footers/>
 
-      {/* <Carousel/> */}
 
     </>
   );
