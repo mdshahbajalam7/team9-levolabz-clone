@@ -1,6 +1,12 @@
 import Image from "next/image";
 import banner from "../public/image/banner.jpeg";
-export default function Banner() {
+import { useRef } from "react";
+
+
+export default function Banner({onclick}) {
+
+  const sectionRef = useRef(null);
+
   return (
     <div className="w-[100%] mt-10 ">
       <div className=" lg:w-[80%]  mx-[auto] flex  sm:flex-col-reverse md:flex-col-reverse lg:flex-row sm:pb-7">
@@ -20,13 +26,13 @@ export default function Banner() {
               See Our Projects
             </button>
             
-            <button className="border border-blue-500 px-14 py-3 mr-3 rounded-md text-blue-500 font-semibold hover:bg-blue-50">
+            <button onClick={onclick} className="border border-blue-500 px-14 py-3 mr-3 rounded-md text-blue-500 font-semibold hover:bg-blue-50">
               Get In Touch
             </button>
           </div>
           
         </div>
-        <div className="lg:ml-[-100px] lg:mt-4 justify-center lg:w-[110%] md:ml-14">
+        <div className="lg:ml-[-100px] lg:mt-0 justify-center lg:w-[110%] md:ml-14">
           <Image className="lg:w-[650px] lg:h-[380px]" src={banner} alt="img" />
         </div>
       </div>

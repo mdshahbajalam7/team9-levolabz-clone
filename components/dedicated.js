@@ -1,5 +1,7 @@
 import Image from "next/image";
+
 export default function Dedicated() {
+
   return (
     <div className="w-[100%]">
       <div className="lg:w-[80%]  mx-[auto] sm:pb-9 flex sm:flex-col md:flex-col lg:flex-row justify-around">
@@ -12,20 +14,19 @@ export default function Dedicated() {
             height={"0"}
           />
         </div>
-        <div className="pt-20 lg:pl-28 sm:pl-5  lg:w-[100%]">
-          <h1>CLIENTS</h1>
+        <div className="pt-28 lg:pl-28 sm:pl-5  lg:w-[100%]">
+          
           <h1 className="text-4xl font-semibold leading-normal md:text-3xl sm:text-2xl">
-            Hire a dedicated development team
+          Levo is Latin for elevate
           </h1>
           <p className="pt-5 text-lg lg:w-[78%]">
-            A complete, hands-off solution to complex, hands-on problems. Turing
-            will consult with you on your specific project needs, then build a
-            dedicated development team to deliver your solution.
+          Levo Labz is a software company that elevates your product approach, takes over your product and technology needs so that you can focus on your business value and how to bring it to market.
+
           </p>
           <div className="pt-6">
-            <button className="px-10 py-3 bg-blue-500 rounded-md text-white font-semibold mr-4 hover:bg-blue-600">
+            {/* <button className="px-10 py-3 bg-blue-500 rounded-md text-white font-semibold mr-4 hover:bg-blue-600">
               More about Teams
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
