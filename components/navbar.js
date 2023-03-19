@@ -6,9 +6,11 @@ import {
 } from "@heroicons/react/24/solid";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
+import { useRef } from "react";
 
-export default function Navbar() {
+export default function Navbar({onclick}) {
   const [nav, setNav] = useState(false);
+  const sectionRef = useRef(null);
 
   const dropDown = () => {
     setNav(!nav);
@@ -66,9 +68,12 @@ export default function Navbar() {
             <p className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2  font-light">
               Portfolio
             </p>
-            <p className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2  font-light">
+            
+            
+              <p onClick={onclick} className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2  font-light">
               Contact Us
-            </p>
+              </p>
+            
             <div className=" border-t-0 border-r-0 border-l-0 relative group/item">
               <p className="flex gap-2 items-center font-light pb-3">
                 Services We Offer{" "}
@@ -103,7 +108,7 @@ export default function Navbar() {
               </div>
             </div>
 
-            <div className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2 relative group/item">
+            {/* <div className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2 relative group/item">
               <p className="flex gap-2 items-center font-light pb-3">
                 Login{" "}
                 <ChevronDownIcon className="w-4 fill-blue-500 group-hover/item:rotate-180 border-2 border-blue-500 rounded-full" />
@@ -124,7 +129,7 @@ export default function Navbar() {
                   <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         {nav && (
