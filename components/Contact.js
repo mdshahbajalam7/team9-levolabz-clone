@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
-// import { useForm } from "react-hook-form";
-
-
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -16,6 +14,13 @@ const Contact = () => {
   const [phoneError, setPhoneError] = useState(false);
   const [locationError, setLocationError] = useState(false);
   const [ProjectDetailsError, setProjectDetailsError] = useState(false);
+
+  // useEffact
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
 
   const handleNameChange = (event) => {
     setName(event.target.value);
@@ -90,14 +95,14 @@ const Contact = () => {
       <div className="w-[100%] bg-[#F9FAFE] pb-16">
         <div className="lg:w-[85%] md:w-[95%] sm:w-[95%]  mx-[auto] pt-5">
           <div className="lg:w-[100%] sm:w-[95%] md:w-[95%] mx-auto lg:grid lg:grid-cols-2 md:grid md:grid-cols-1 sm:grid sm:grid-cols-1 gap-4 mt-16">
-            <div className="p-4">
+            <div className="p-4" data-aos="fade-right">
               <h1 className=" text-[25px] font-semibold ">GET IN TOUCH</h1>
-              <p className=" mt-2 lg:text-[20px] md:text-[20px] sm:text-[16px] md:w-[100%] lg:w-[80%] sm:w-[140%] text-[gray] font-semibold">
+              <p className=" mt-2 lg:text-[20px] md:text-[20px] sm:text-[16px] md:w-[100%] lg:w-[80%] sm:w-[100%] text-[gray] font-semibold">
                 Get in touch with us for a free consult on the scope of your
                 project
               </p>
 
-              <div className="flex flex-row">
+              <div className="flex flex-row" >
                 <Image
                   src="https://debobrota-haldar.netlify.app/static/media/contact.ec03def613ffe59fb4ce334fcc107c2e.svg"
                   alt="imag"
@@ -107,7 +112,10 @@ const Contact = () => {
               </div>
               <div className="flex"></div>
             </div>
-            <div className="p-4  lg:w-[110%] md:w-[95%] mx-[auto] lg:ml-[-20%]">
+            <div
+              className="p-4  lg:w-[110%] md:w-[95%] mx-[auto] lg:ml-[-20%]"
+              data-aos="fade-left"
+            >
               <form onSubmit={handleSubmit}>
                 <div className=" lg:w-[100%] md:w-[100%] sm:w-[100%] mx-[auto] lg:flex lg:flex-row md:flex md:flex-row sm:flex sm:flex-col gap-5">
                   <div className="w-[100%]">

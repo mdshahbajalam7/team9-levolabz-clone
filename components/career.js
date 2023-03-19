@@ -24,7 +24,7 @@ const Career = () => {
               Apply for Jobs
             </button>
           </div>
-          <div className="lg:w-[130%] lg:mr-[180px] sm:mr-[0] sm:mt-10 sm:ml-2 sm:w-[90%] lg:mt-12 lg:ml-5 md:w-[75%] md:mt-10 md:ml-16">
+          <div  className="lg:w-[130%] lg:mr-[180px] sm:mr-[0] sm:mt-10 sm:ml-2 sm:w-[90%] lg:mt-12 lg:ml-5 md:w-[75%] md:mt-10 md:ml-16">
             <Image src={BuildCareer} alt="BuildCareer" />
           </div>
         </div>

@@ -2,7 +2,6 @@ import Head from "next/head";
 import { Inter } from "@next/font/google";
 import Dedicated from "@/components/dedicated";
 import Banner from "@/components/banner";
-
 import Navbar from "@/components/navbar";
 import Contact from "@/components/Contact";
 import Footers from "@/components/Footers";
@@ -14,19 +13,15 @@ import Testimonials from "@/components/testimonials";
 
 const inter = Inter({ subsets: ["latin"] });
 
-
-
 export default function Home() {
-
-  const scrollRef = useRef()
+  const scrollRef = useRef();
   // const scrollRef = useRef()
 
-
-const scrolltoSec = () => {
-  scrollRef.current.scrollIntoView({
-    behavior:"smooth"
-  })
-}
+  const scrolltoSec = () => {
+    scrollRef.current.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
 
   return (
     <>
@@ -58,13 +53,10 @@ const scrolltoSec = () => {
       {/* new components */}
       <Product />
       <Testimonials />
-      <div ref = {scrollRef}>
+      <div ref={scrollRef}>
       <Contact />
       </div>
-
-      <Footers/>
-
-
+      <Footers />
     </>
   );
 }
