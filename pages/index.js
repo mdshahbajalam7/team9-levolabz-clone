@@ -5,22 +5,20 @@ import Banner from "@/components/banner";
 import Navbar from "@/components/navbar";
 import Contact from "@/components/Contact";
 import Footers from "@/components/Footers";
-import {useRef} from 'react'
+import { useRef } from "react";
+import Product from "@/components/product";
+import Testimonials from "@/components/testimonials";
 const inter = Inter({ subsets: ["latin"] });
 
-
-
 export default function Home() {
-
-  const scrollRef = useRef()
+  const scrollRef = useRef();
   // const scrollRef = useRef()
 
-
-const scrolltoSec = () => {
-  scrollRef.current.scrollIntoView({
-    behavior:"smooth"
-  })
-}
+  const scrolltoSec = () => {
+    scrollRef.current.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
 
   return (
     <>
@@ -42,14 +40,18 @@ const scrolltoSec = () => {
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
       </Head>
-      <Navbar />
-      <Banner />
+      <Navbar onClick={scrolltoSec}/>
+      <Banner onClick={scrolltoSec}/>
       <Dedicated />
       {/* <Footer /> */}
 
       {/* new components */}
-      <Contact/>
-      <Footers/>
+      <Product />
+      <Testimonials />
+      <div ref={scrollRef}>
+      <Contact />
+      </div>
+      <Footers />
     </>
   );
 }
