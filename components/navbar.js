@@ -136,31 +136,50 @@ export default function Navbar({onclick}) {
           <div className="absolute bg-white sm:w-[94%] md:w-[96%] w-full overflow-y-scroll">
             <div className="flex flex-col px-3 gap-[10px] mt-4">
               <button className="border border-blue-600 rounded-md py-3 font-semibold text-lg text-blue-600">
-                Hire a Team
+                See Our Projects
               </button>
               <button className="border border-blue-600 rounded-md py-3 font-semibold text-lg text-blue-600">
-                Hire Developers
+                Get in Touch
               </button>
-              <button className="border border-blue-600 rounded-md py-3 font-semibold text-lg text-blue-600">
-                Apply for Jobs
-              </button>
+              
             </div>
-            <div className="px-3 mt-5">
-              <p className="font-semibold ">Explore Services</p>
-              <p className="flex items-center justify-between py-3 border-b border-gray-300 font-semibold text-gray-500">
-                AI Services{" "}
-                <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
+            <div className="px-5 mt-5">
+              <p className="font-semibold ">Services we Offer</p>
+              <p className="flex items-center justify-between py-3 px-9 border-b border-gray-300 font-semibold text-gray-500">
+              Web Development{" "}
+                
               </p>
-              <p className="flex items-center justify-between py-3 border-b border-gray-300 font-semibold text-gray-500">
-                Cloud Services
-                <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
+              <p className="flex items-center justify-between py-3 px-9 border-b border-gray-300 font-semibold text-gray-500">
+              Mobile Applications
+                
               </p>
-              <p className="flex items-center justify-between py-3 border-b border-gray-300 font-semibold text-gray-500">
-                Application Engineering Services{" "}
-                <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
+              <p className="flex items-center justify-between py-3 px-9 border-b border-gray-300 font-semibold text-gray-500">
+              Custom Softwares{" "}
+                
               </p>
+              <p className="flex items-center justify-between py-3 px-9 border-b border-gray-300 font-semibold text-gray-500">
+              UI/UX{" "}
+                
+              </p>
+              <p className="flex items-center justify-between py-3 px-9 border-b border-gray-300 font-semibold text-gray-500">
+              Graphic Design{" "}
+                
+              </p>
+              <p className="flex items-center justify-between py-3 px-9 border-b border-gray-300 font-semibold text-gray-500">
+              SEO Optimization{" "}
+                
+              </p>
+              <p className="flex items-center justify-between py-3 px-9 border-b border-gray-300 font-semibold text-gray-500">
+              Performance Marketing{" "}
+                
+              </p>
+              <p className="flex items-center justify-between py-3 px-9 border-b border-gray-300 font-semibold text-gray-500">
+              Staff Augmentation{" "}
+                
+              </p>
+              
             </div>
-            <div className="px-3 mt-5">
+            {/* <div className="px-3 mt-5">
               <p className="font-semibold ">Developers</p>
               <p className="flex items-center justify-between py-3 border-b border-gray-300 font-semibold text-gray-500">
                 Login <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
@@ -169,11 +188,10 @@ export default function Navbar({onclick}) {
                 Create an Account
                 <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
               </p>
-            </div>
-            <div className="px-3 mt-5">
-              <p className="font-semibold ">Client</p>
-              <p className="flex items-center justify-between py-3 border-b border-gray-300 font-semibold text-gray-500">
-                Login <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
+            </div> */}
+            <div className="px-5 ">
+              <p className="flex items-center justify-between py-3 border-b border-gray-300 font-semibold ">
+                How It Works <ChevronRightIcon className="w-5 h-5 fill-blue-500" />
               </p>
             </div>
           </div>

@@ -8,6 +8,9 @@ import Footers from "@/components/Footers";
 import { useRef } from "react";
 import Product from "@/components/product";
 import Testimonials from "@/components/testimonials";
+
+
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -40,9 +43,13 @@ export default function Home() {
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
       </Head>
-      <Navbar onClick={scrolltoSec}/>
-      <Banner onClick={scrolltoSec}/>
+      <Navbar onclick={scrolltoSec}/>
+      <Banner onclick={scrolltoSec}/>
+    
       <Dedicated />
+      
+      
+
       {/* new components */}
       <Product />
       <Testimonials />

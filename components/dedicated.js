@@ -1,10 +1,12 @@
 import Image from "next/image";
-
+import { smallSectionData } from "@/data/componentdata";
 export default function Dedicated() {
 
   return (
+    // {smallSectionData.map((el)=>{
+    //   return(
     <div className="w-[100%]">
-      <div className="lg:w-[80%]  mx-[auto] sm:pb-9 flex sm:flex-col md:flex-col lg:flex-row justify-around">
+          <div className="lg:w-[80%]  mx-[auto] sm:pb-9 flex sm:flex-col md:flex-col lg:flex-row justify-around">
         <div className=" lg:w-[80%]">
           <Image
             className="w-[700px] lg:p-0 lg:mt-14 md:p-[50px]"
@@ -23,13 +25,10 @@ export default function Dedicated() {
           Levo Labz is a software company that elevates your product approach, takes over your product and technology needs so that you can focus on your business value and how to bring it to market.
 
           </p>
-          <div className="pt-6">
-            {/* <button className="px-10 py-3 bg-blue-500 rounded-md text-white font-semibold mr-4 hover:bg-blue-600">
-              More about Teams
-            </button> */}
-          </div>
         </div>
-      </div>
+        </div>
+        {/* );
+      })} */}
     </div>
   );
 }
