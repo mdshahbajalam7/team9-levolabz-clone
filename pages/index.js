@@ -43,8 +43,6 @@ export default function Home() {
       <Navbar onClick={scrolltoSec}/>
       <Banner onClick={scrolltoSec}/>
       <Dedicated />
-      {/* <Footer /> */}
-
       {/* new components */}
       <Product />
       <Testimonials />
