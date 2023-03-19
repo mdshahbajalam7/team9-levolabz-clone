@@ -5,7 +5,7 @@ import Banner from "@/components/banner";
 import Navbar from "@/components/navbar";
 import Contact from "@/components/Contact";
 import Footers from "@/components/Footers";
-
+import {useRef} from 'react'
 const inter = Inter({ subsets: ["latin"] });
 
 
@@ -44,18 +44,7 @@ const scrolltoSec = () => {
       </Head>
       <Navbar />
       <Banner />
-      <Company />
       <Dedicated />
-      <Deeply />
-      <Service />
-      <Career />
-      <Turing />
-      <Businesses />
-      <Developers />
-      <Bestdevelopers />
-      <PeopleTuring />
-      <InformationSlider />
-      <RemoteDevelopre />
       {/* <Footer /> */}
 
       {/* new components */}
