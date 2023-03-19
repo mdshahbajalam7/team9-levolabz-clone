@@ -8,17 +8,38 @@ import Footers from "@/components/Footers";
 import { useRef } from "react";
 import Product from "@/components/product";
 import Testimonials from "@/components/testimonials";
-
-
+import Howitworks from "@/components/howitworks";
+import Serviceweoffer from "@/components/serviceweoffer";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const scrollRef = useRef();
-  // const scrollRef = useRef()
+  const scrollRefs = useRef()
+  const scrollwork = useRef()
+  const scrollserv = useRef()
+
+
 
   const scrolltoSec = () => {
     scrollRef.current.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
+  const scrolltoProd = () => {
+    scrollRefs.current.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
+  const scrolltoWork = () => {
+    scrollwork.current.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+  const scrolltoserv = () => {
+    scrollserv.current.scrollIntoView({
       behavior: "smooth",
     });
   };
@@ -43,20 +64,28 @@ export default function Home() {
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
       </Head>
-      <Navbar onclick={scrolltoSec}/>
-      <Banner onclick={scrolltoSec}/>
-    
-      <Dedicated />
-      
-      
+      <Navbar onclick={scrolltoSec} onClicks={scrolltoProd} serv={scrolltoserv} work={scrolltoWork}/>
+      <Banner onclick={scrolltoSec} onClicks={scrolltoProd}/>
 
+      <Dedicated />
+      <div ref={scrollserv}>
+      <Serviceweoffer onclick={scrolltoSec}/>
+      </div>
+      <div ref={scrollwork}>
+      <Howitworks onclick={scrolltoSec}/>
+      </div>
       {/* new components */}
-      <Product />
+      <div ref={scrollRefs}>
+      <Product onclick={scrolltoSec}/>
+      </div>
+
       <Testimonials />
+
       <div ref={scrollRef}>
       <Contact />
       </div>
-      <Footers />
+
+      <Footers onclick={scrolltoSec}/>
     </>
-  );
+  )
 }

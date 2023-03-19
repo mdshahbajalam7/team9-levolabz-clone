@@ -68,53 +68,53 @@ const testimonial=[
 
 ]
 
-const servicedata =[
+export const servicedata =[
     {
-        img:"",
+        img:"/image/services/optimization.png",
         title:"Web Development",
         desc:"A well-constructed website can grow your business within no time. Our team of experts always uses the last updated technologies for website development like HTML 5, CSS 3, Java, etc. Also, every element and design detail for the website is chosen with priority to drive qualified leads should end in conversion."
 
     },
     {
-        img:"",
+        img:"/image/services/mobile.png",
         title:"Mobile Applications",
         desc:"Mobile Applications enable the business to collect, track, and remote access the data. A business with a customized mobile application would be well-collaborated and provide sound communication with the customers. It has the additional advantage of being accessible round-the-clock and quite simple to install and maintain while providing added levels of security."
 
     },
     {
-        img:"",
+        img:"/image/services/development.png",
         title:"Custom Softwares",
-        desc:""
+        desc:"Developing software or an application that meets specific business requirements is necessary for survival in today’s competitive era. Custom Software Development is the process of conceptualizing, designing, building and deploying software for a specific individual or a group of individuals within an organization or as a third-party arrangement."
 
     },
     {
-        img:"",
+        img:"/image/services/approved.png",
         title:"UI/UX",
         desc:"Having a well-designed website in 2023 will enhance your business brand’s online visibility and increase sales. It is good to invest in web design to create consistency and the first impression about the brand, customer service, and building trust with the audience. It also helps in aiding the search engine optimization strategy of keeping leads on your page."
 
     },
     {
-        img:"",
+        img:"/image/services/R.png",
         title:"Graphic Design",
         desc:"An assorted graphic design embellished with images and text makes your venture come to life and communicates your business ideas well to the targeted customers. Start merchandising your business with our creative designs like logos, brochures, flyers, advertisements, etc."
 
     },
     {
-        img:"",
+        img:"/image/services/testing.jpg",
         title:"SEO Optimization",
         desc:"Do you desire that your website appears in the top searches managed by the search engines? Get it attractively optimized today to enhance user traffic and improve Google rankings. SEO facilitates in giving rise to quality traffic and thereby initiates more leads for extensive sales."
 
     },
     {
-        img:"",
+        img:"/image/services/marketing.png",
         title:"Performance Marketing",
-        desc:""
+        desc:"Performance marketing is a type of digital marketing campaign in which the budgeting and decision-making are driven primarily by the measurable results of that campaign. Performance marketing is based on an active, iterative feedback loop: run campaigns, see what works, double down, repeat."
 
     },
     {
-        img:"",
+        img:"/image/services/staff.png",
         title:" Staff Augmentation",
-        desc:""
+        desc:"Staff augmentation is a good solution for companies to reduce operating costs while maintaining productivity as much as possible. But before taking advantage of this service, you need to understand the definition of staff augmentation and its respective pros and cons."
 
     },
 ] 

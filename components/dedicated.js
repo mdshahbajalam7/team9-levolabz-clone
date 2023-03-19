@@ -7,7 +7,7 @@ export default function Dedicated() {
     //   return(
     <div className="w-[100%]">
           <div className="lg:w-[80%]  mx-[auto] sm:pb-9 flex sm:flex-col md:flex-col lg:flex-row justify-around">
-        <div className=" lg:w-[80%]">
+        <div className="flex justify-center lg:w-[80%]">
           <Image
             className="w-[700px] lg:p-0 lg:mt-14 md:p-[50px]"
             src="https://d2mk45aasx86xg.cloudfront.net/graph_be4a9cff45.svg"

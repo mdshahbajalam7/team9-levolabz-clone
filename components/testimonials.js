@@ -1,15 +1,9 @@
 import React, { useEffect } from "react";
 import Marquee from "react-fast-marquee";
 import Image from "next/image";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Testimonials = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 2000,
-    });
-  }, []);
+ 
   const images = [
     {
       image: "/image/testimonials/OIP (1).jpeg",
@@ -50,14 +44,14 @@ const Testimonials = () => {
   return (
     <div
       className="p-4 w-[100%] bg-[#e97f5e] text-[white]"
-      data-aos="flip-right"
+      
     >
       <h1 className="text-center lg:text-[30px] md:text-[25px] sm:text-[25px]">
         What Our clients says about us
       </h1>
       <Marquee
         gradient={false}
-        speed={30}
+        speed={20}
         pauseOnHover={true}
         pauseOnClick={true}
         direction="left"

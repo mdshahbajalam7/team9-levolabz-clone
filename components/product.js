@@ -33,15 +33,15 @@ const products = [
   },
 ];
 
-const Product = () => {
+export default function Product ({onclick}) {
   useEffect(() => {
     AOS.init({
       duration: 2000,
     });
   }, []);
   return (
-    <div className="w-[100%] pb-20 mt-10">
-      <div className="lg:w-[80%] sm:w-[90%] md:w-[90%]  mx-[auto]">
+    <div className="pb-20 mt-10 overflow-hidden">
+      <div className="lg:w-[80%] sm:w-[90%] md:w-[90%] m-auto">
         <div className="mt-10 text-center font-semibold">
           <h1 className="text-[35px]">
             {" "}
@@ -50,7 +50,7 @@ const Product = () => {
             <span className="text-[red]">P</span>rojects
           </h1>
         </div>
-        <div className="lg:grid lg:grid-cols-2 gap-6 md:grid md:grid-cols-1 sm:grid sm:grid-cols-1 mt-10">
+        <div className="grid lg:grid-cols-2 gap-6 md:grid md:grid-cols-1 grid-cols-1 mt-10">
           {products.map((product, index) => (
             <div
               key={index}
@@ -58,7 +58,7 @@ const Product = () => {
               data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
             >
               <Image
-                className="lg:w-[100%] lg:h-[330px] md:w-[100%] md:h-[330px] sm:w-[100%] sm:h-[250px]"
+                className="lg:h-[330px] w-full md:h-[330px] sm:h-[250px]"
                 data-aos="zoom-in-up"
                 src={product.image}
                 alt="image"
@@ -70,16 +70,17 @@ const Product = () => {
                 <p className="text-[16px] mt-2">{product.description}</p>
               </div>
               <div className="mt-5">
-                <button className="lg:w-[40%] md:w-[100%]  sm:w-[100%] font-semibold text-[20px] rounded-lg bg-black text-[white] h-[60px] hover:bg-[#03f903] hover:text-[black]">
-                  Get in Touch
-                </button>
+                
               </div>
             </div>
           ))}
         </div>
+        <button onClick={onclick} className="px-8 mt-8 font-semibold text-[20px] rounded-lg bg-black text-[white] h-[60px] hover:bg-[#e8f1e8] hover:text-black">
+                  Get in Touch
+                </button>
       </div>
     </div>
   );
 };
 
-export default Product;
+

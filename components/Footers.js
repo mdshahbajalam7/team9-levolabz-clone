@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import 'aos/dist/aos.css';
-const Footers = () => {
+
+export default function Footers ({onclick}) {
+
   useEffect(() => {
     AOS.init({
       duration: 2000,
@@ -65,7 +67,7 @@ const Footers = () => {
           <p className="hover:text-[green] cursor-pointer">520008</p>
         </div>
         <div className="mt-10">
-          <button className="lg:w-[80%] md:w-[80%] sm:w-[100%] font-semibold text-[20px] rounded-lg bg-black text-[white] h-[60px] hover:bg-white hover:text-[black]">
+          <button onClick={onclick} className="lg:w-[80%] md:w-[80%] sm:w-[100%] font-semibold text-[20px] rounded-lg bg-black text-[white] h-[60px] hover:bg-white hover:text-[black]">
             Get in Touch
           </button>
         </div>
@@ -74,4 +76,4 @@ const Footers = () => {
   );
 };
 
-export default Footers;
+

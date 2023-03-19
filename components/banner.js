@@ -3,7 +3,7 @@ import banner from "../public/image/banner.jpeg";
 import { useRef } from "react";
 
 
-export default function Banner({onclick}) {
+export default function Banner({onclick,onClicks}) {
 
   const sectionRef = useRef(null);
 
@@ -22,16 +22,16 @@ export default function Banner({onclick}) {
             experts in modern solutions that scale.
           </p>
           <div className="pt-6 flex sm:flex-col sm:gap-3 md:flex-col md:gap-3 lg:flex-row lg:gap-1">
-            <button className="px-10 py-3 bg-blue-500 rounded-md text-white font-semibold mr-3 hover:bg-blue-600">
+            <button onClick={onClicks} className="px-10 py-3 bg-black rounded-md text-white font-semibold mr-3 hover:bg-slate-200 hover:text-black hover:border border-black">
               See Our Projects
             </button>
             
-            <button onClick={onclick} className="border border-blue-500 px-14 py-3 mr-3 rounded-md text-blue-500 font-semibold hover:bg-blue-50">
+            <button onClick={onclick} className=" bg-black px-14 py-3 mr-3 rounded-md text-white font-semibold  hover:bg-slate-200 hover:text-black hover:border border-black">
               Get In Touch
             </button>
           </div>
         </div>
-        <div className="lg:ml-[-100px] lg:mt-0 justify-center lg:w-[110%] md:ml-14">
+        <div className="lg:ml-[-100px] lg:mt-0 flex justify-center lg:w-[110%] md:ml-14">
           <Image className="lg:w-[650px] lg:h-[380px]" src={banner} alt="img" />
         </div>
       </div>
