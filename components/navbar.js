@@ -45,14 +45,13 @@ export default function Navbar() {
                 fill="#212121"
               ></path>
             </svg> */}
-            <Image
-            src="/image/logo.png"
-            alt="logo"
-            width ={50}
-            height={0} />
+            <Image src="/image/logo.png" alt="logo" width={50} height={0} />
           </div>
           {nav ? (
-            <XMarkIcon className="h-8 m-2 sm:mt-5 xl:hidden" onClick={dropDownClose} />
+            <XMarkIcon
+              className="h-8 m-2 sm:mt-5 xl:hidden"
+              onClick={dropDownClose}
+            />
           ) : (
             <Bars3Icon
               className="h-8 m-2 sm:mt-6 xl:hidden"
@@ -72,42 +71,34 @@ export default function Navbar() {
             </p>
             <div className=" border-t-0 border-r-0 border-l-0 relative group/item">
               <p className="flex gap-2 items-center font-light pb-3">
-               Services We Offer{" "}
+                Services We Offer{" "}
                 <ChevronDownIcon className="w-4 fill-blue-500 group-hover/item:rotate-180 border-2 border-blue-500 rounded-full" />
               </p>
 
               <div className="absolute w-80 bg-white border border-gray-400 px-4 origin-center -right-[80%] group/edit invisible xl:group-hover/item:visible">
                 <p className="flex items-center justify-between py-3 font-400 border-b border-gray-300 text-gray-500 hover:text-blue-500">
-                Web Development{" "}
-                 
+                  Web Development{" "}
                 </p>
                 <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
-                Mobile Applications{" "}
-                 
+                  Mobile Applications{" "}
                 </p>
                 <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
-                Custom Softwares{" "}
-                 
+                  Custom Softwares{" "}
                 </p>
                 <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
-                UI/UX{" "}
-                 
+                  UI/UX{" "}
                 </p>
                 <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
-                Graphic Design{" "}
-                 
+                  Graphic Design{" "}
                 </p>
                 <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
-                SEO Optimization{" "}
-                 
+                  SEO Optimization{" "}
                 </p>
                 <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
-                Performance Marketing{" "}
-                 
+                  Performance Marketing{" "}
                 </p>
                 <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
-                Staff Augmentation{" "}
-                 
+                  Staff Augmentation{" "}
                 </p>
               </div>
             </div>
