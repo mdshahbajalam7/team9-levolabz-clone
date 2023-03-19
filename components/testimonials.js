@@ -63,9 +63,9 @@ const Testimonials = () => {
         direction="left"
         play={true}
       >
-        {images.map((elem) => {
+        {images.map((elem,index) => {
           return (
-            <div className="ml-3 shadow-lg p-3">
+            <div className="ml-3 shadow-lg p-3" key={index}>
               <Image
                 className="lg:w-[300px] lg:h-[300px] md:w-[250px] md:h-[250px] sm:w-[330px] sm:h-[300px]"
                 src={elem.image}
