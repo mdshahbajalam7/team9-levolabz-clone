@@ -24,7 +24,7 @@ export const smallSectionData =[
     {
         title:"Levo is Latin for elevate",
         Desc:"Levo Labz is a software company that elevates your product approach, takes over your product and technology needs so that you can focus on your business value and how to bring it to market.",
-        Img:""
+        Img:"https://d2mk45aasx86xg.cloudfront.net/graph_be4a9cff45.svg"
     }
 
 ]
