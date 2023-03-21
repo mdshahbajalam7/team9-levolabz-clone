@@ -46,7 +46,7 @@ export default function Product ({onclick}) {
           <h1 className="text-[35px]">
             {" "}
             Our{" "}
-            best{" "}
+            Best{" "}
             Projects
           </h1>
         </div>
