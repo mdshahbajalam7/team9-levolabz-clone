@@ -43,7 +43,7 @@ const Testimonials = () => {
   ];
   return (
     <div
-      className="p-4 w-[100%] bg-[#e97f5e] text-[white]"
+      className="p-4 w-[100%] bg-[#605d82] text-[white]"
       
     >
       <h1 className="text-center lg:text-[30px] md:text-[25px] sm:text-[25px]">
