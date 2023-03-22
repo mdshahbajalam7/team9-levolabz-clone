@@ -43,7 +43,7 @@ const Testimonials = () => {
   ];
   return (
     <div
-      className="p-4 w-[100%] bg-[#605d82] text-[white]"
+      className="p-4 w-[100%] bg-[#d97d62] text-[white]"
       
     >
       <h1 className="text-center lg:text-[30px] md:text-[25px] sm:text-[25px]">
@@ -59,14 +59,14 @@ const Testimonials = () => {
       >
         {images.map((elem,index) => {
           return (
-            <div className="ml-3 shadow-lg p-3" key={index}>
-              <Image
+            <div className="ml-3 shadow-lg p-10" key={index}>
+              {/* <Image
                 className="lg:w-[300px] lg:h-[300px] md:w-[250px] md:h-[250px] sm:w-[330px] sm:h-[300px]"
                 src={elem.image}
                 alt="image"
                 width={200}
                 height={200}
-              />
+              /> */}
               <div className="text-center text-[20px]">
                 <h2>{elem.name}</h2>
                 <p>{elem.title}</p>

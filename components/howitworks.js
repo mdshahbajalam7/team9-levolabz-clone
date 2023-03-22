@@ -10,7 +10,7 @@ export default function Howitworks({onclick}) {
       <div className="grid md:grid-cols-2 gap-8 lg:grid-cols-3 lg:gap-16 ">
         {worksdata.map((el, idx) => {
           return (
-            <div className="shadow-md rounded-lg"
+            <div className="shadow-md rounded-lg bg-[#ea9278] text-white"
             key={idx}>
              
               <div className="relative md:h-60 h-40 w-full ">
@@ -29,7 +29,7 @@ export default function Howitworks({onclick}) {
         })}
       </div>
       <div className="flex justify-center">
-      <button onClick={onclick} className="px-8 py-3 font-semibold text-[20px] rounded-lg bg-black  text-white mt-8 hover:bg-[#e8f1e8] hover:text-black">Get in Touch</button>
+      <button onClick={onclick} className="px-8 py-3 font-semibold text-[20px] rounded-lg bg-[#df623c]  text-white mt-8 hover:bg-[#e8f1e8] hover:text-black">Get in Touch</button>
       </div>
       
       </div>

@@ -25,9 +25,9 @@ export default function Navbar({onclick,onClicks,serv,work}) {
     <div className="w-[100%] top-0 sticky bg-white scroll drop-shadow-sm z-50 px-5 pb-2 xl:px-0 xl:py-3 xl:pt-5">
       <div className=" lg:w-[80%] mx-[auto]">
         <div className="flex justify-between  ">
-          <div className="pl-3 pt-2 xl:pt-1 pb-2">
+          <div className="pl-3 pt-2 xl:pt-1 pb-2  ">
             
-            <Image src="/image/logo.png" alt="logo" width={50} height={0} />
+            <Image src="/image/logo.png" alt="logo" width={55} height={0} />
           </div>
           {nav ? (
             <XMarkIcon
@@ -42,47 +42,47 @@ export default function Navbar({onclick,onClicks,serv,work}) {
           )}
 
           <div className="hidden xl:flex xl:flex-row xl:gap-12 xl:pr-[10px] pt-3 xl:text-[18px] cursor-pointer">
-            <p onClick={work} className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2  font-medium">
+            <p onClick={work} className=" border-t-0 border-r-0 border-l-0 border-[#ea8060] hover:border-b-2  font-medium">
               How it Works
             </p>
-            <p onClick={onClicks} className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2  font-medium">
+            <p onClick={onClicks} className=" border-t-0 border-r-0 border-l-0 border-[#ea8060] hover:border-b-2  font-medium">
               Portfolio
             </p>
             
             
-              <p onClick={onclick} className=" border-t-0 border-r-0 border-l-0 border-blue-700 hover:border-b-2  font-medium">
+              <p onClick={onclick} className=" border-t-0 border-r-0 border-l-0 border-[#ea8060] hover:border-b-2  font-medium">
               Contact Us
               </p>
             
             <div className=" border-t-0 border-r-0 border-l-0 relative group/item">
               <p onClick={serv}  className="flex gap-2 items-center font-medium pb-3">
                 Services We Offer{" "}
-                <ChevronDownIcon className="w-4 fill-blue-500 group-hover/item:rotate-180 border-2 border-blue-500 rounded-full" />
+                <ChevronDownIcon className="w-4 fill-[#ea8060] group-hover/item:rotate-180 border-2 border-[#ea8060] rounded-full" />
               </p>
 
               <div className="absolute w-70 bg-white border border-gray-400 px-4 origin-center -right-[30%] group/edit invisible xl:group-hover/item:visible">
-                <p className="flex items-center justify-between py-3 font-400 border-b border-gray-300 text-gray-500 hover:text-blue-500">
+                <p className="flex items-center justify-between py-3 font-400 border-b border-gray-300 text-gray-500 hover:text-[#ea8060]">
                   Web Development{" "}
                 </p>
-                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
+                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-[#ea8060]">
                   Mobile Applications{" "}
                 </p>
-                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
+                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-[#ea8060]">
                   Custom Softwares{" "}
                 </p>
-                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
+                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-[#ea8060]">
                   UI/UX{" "}
                 </p>
-                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
+                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-[#ea8060]">
                   Graphic Design{" "}
                 </p>
-                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
+                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-[#ea8060]">
                   SEO Optimization{" "}
                 </p>
-                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
+                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-[#ea8060]">
                   Performance Marketing{" "}
                 </p>
-                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-blue-500">
+                <p className="flex items-center justify-between py-3 border-b border-gray-300 text-gray-500 hover:text-[#ea8060]">
                   Staff Augmentation{" "}
                 </p>
               </div>
@@ -94,10 +94,10 @@ export default function Navbar({onclick,onClicks,serv,work}) {
         {nav && (
           <div className="absolute bg-white sm:w-[94%] md:w-[96%] w-full overflow-y-scroll">
             <div className="flex flex-col px-3 gap-[10px] mt-4">
-              <button className="border border-blue-600 rounded-md py-3 font-semibold text-lg text-blue-600">
+              <button className="border border-[#ea8060] rounded-md py-3 font-semibold text-lg text-[#ea8060]">
                 See Our Projects
               </button>
-              <button className="border border-blue-600 rounded-md py-3 font-semibold text-lg text-blue-600">
+              <button className="border border-[#ea8060] rounded-md py-3 font-semibold text-lg text-[#ea8060]">
                 Get in Touch
               </button>
               

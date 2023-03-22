@@ -195,7 +195,7 @@ const Contact = () => {
                 <div className="mt-5">
                   <input
                     type="Submit"
-                    className="lg:w-[35%] md:w-[40%] sm:w-[100%] font-semibold text-[20px] rounded-lg bg-black text-white h-[50px] hover:bg-white hover:text-black hover:border border-black"
+                    className="lg:w-[35%] md:w-[40%] sm:w-[100%] font-semibold text-[20px] rounded-lg bg-[#e76a44] text-white h-[50px] hover:bg-white hover:text-black hover:border border-black"
                   />
                 </div>
               </form>

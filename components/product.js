@@ -36,11 +36,11 @@ const products = [
 export default function Product ({onclick}) {
   useEffect(() => {
     AOS.init({
-      duration: 2000,
+      duration: 1000,
     });
   }, []);
   return (
-    <div className="pb-20 mt-10 overflow-hidden">
+    <div className="pb-20 mt-10 overflow-hidden bg-[#fafafa]">
       <div className="lg:w-[80%] sm:w-[90%] md:w-[90%] m-auto">
         <div className="mt-10 text-center font-semibold">
           <h1 className="text-[35px]">
@@ -50,11 +50,11 @@ export default function Product ({onclick}) {
             Projects
           </h1>
         </div>
-        <div className="grid lg:grid-cols-2 gap-6 md:grid md:grid-cols-1 grid-cols-1 mt-10">
+        <div className="grid lg:grid-cols-2 gap-6 md:grid md:grid-cols-1 grid-cols-1 mt-10 ">
           {products.map((product, index) => (
             <div
               key={index}
-              className="shadow-md p-4"
+              className="shadow-md p-4 rounded-lg border border-[#e5a38e]"
               data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
             >
               <Image
@@ -75,9 +75,9 @@ export default function Product ({onclick}) {
             </div>
           ))}
         </div>
-        <button onClick={onclick} className="px-8 mt-8 font-semibold text-[20px] rounded-lg bg-black text-[white] h-[60px] hover:bg-[#e8f1e8] hover:text-black">
+        <button onClick={onclick} className="px-8 mt-8 font-semibold text-[20px] rounded-lg bg-[#e76a44] text-[white] h-[60px] hover:bg-[#e8f1e8] hover:text-black">
                   Get in Touch
-                </button>
+        </button>
       </div>
     </div>
   );

@@ -22,11 +22,11 @@ export default function Banner({onclick,onClicks}) {
             experts in modern solutions that scale.
           </p>
           <div className="pt-6 flex sm:flex-col sm:gap-3 md:flex-col md:gap-3 lg:flex-row lg:gap-1">
-            <button onClick={onClicks} className="px-10 py-3 bg-black rounded-md text-white font-semibold mr-3 hover:bg-slate-200 hover:text-black hover:border border-black">
+            <button onClick={onClicks} className="px-10 py-3 bg-[#e76a44] rounded-md text-white font-semibold mr-3 hover:bg-slate-200 hover:text-black hover:border border-[#ea8060]">
               See Our Projects
             </button>
             
-            <button onClick={onclick} className=" bg-black px-14 py-3 mr-3 rounded-md text-white font-semibold  hover:bg-slate-200 hover:text-black hover:border border-black">
+            <button onClick={onclick} className=" bg-[#e76a44] px-14 py-3 mr-3 rounded-md text-white font-semibold  hover:bg-slate-200 hover:text-black hover:border border-[#ea8060]">
               Get In Touch
             </button>
           </div>
