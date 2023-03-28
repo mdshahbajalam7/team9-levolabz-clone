@@ -29,7 +29,7 @@ export default function Howitworks({onclick}) {
         })}
       </div>
       <div className="flex justify-center">
-      <button onClick={onclick} className="px-8 py-3 font-semibold text-[20px] rounded-lg bg-[#df623c]  text-white mt-8 hover:bg-[#e8f1e8] hover:text-black">Get in Touch</button>
+      <button onClick={onclick} className="px-8 py-3 font-semibold text-[20px] rounded-lg bg-[#df623c]  text-white mt-8 hover:bg-[#e8f1e8] hover:text-black">Get In Touch</button>
       </div>
       
       </div>

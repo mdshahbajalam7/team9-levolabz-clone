@@ -59,7 +59,7 @@ const Testimonials = () => {
       >
         {images.map((elem,index) => {
           return (
-            <div className="ml-3 shadow-lg p-10" key={index}>
+            <div className="ml-3 shadow-lg p-10 border" key={index}>
               {/* <Image
                 className="lg:w-[300px] lg:h-[300px] md:w-[250px] md:h-[250px] sm:w-[330px] sm:h-[300px]"
                 src={elem.image}
@@ -67,7 +67,7 @@ const Testimonials = () => {
                 width={200}
                 height={200}
               /> */}
-              <div className="text-center text-[20px]">
+              <div className="text-center text-[20px] ">
                 <h2>{elem.name}</h2>
                 <p>{elem.title}</p>
               </div>

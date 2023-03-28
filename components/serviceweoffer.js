@@ -33,7 +33,7 @@ export default function Serviceweoffer({onclick}) {
         })}
       </div>
       <div className='flex justify-center'>
-      <button onClick={onclick} className="font-semibold text-[20px] rounded-lg bg-[#e76a44] text-white px-8 py-3 mt-8 hover:bg-[#e8f1e8] hover:text-black">Get in Touch</button>
+      <button onClick={onclick} className="font-semibold text-[20px] rounded-lg bg-[#e76a44] text-white px-8 py-3 mt-8 hover:bg-[#e8f1e8] hover:text-black">Get In Touch</button>
       </div>
       </div>
     </div>

@@ -66,9 +66,9 @@ export default function Footers ({onclick}) {
           </p>
           <p className="hover:text-[lightgreen] cursor-pointer">520008</p>
         </div>
-        <div className="mt-10">
-          <button onClick={onclick} className="lg:w-[80%] md:w-[80%] sm:w-[100%] font-semibold text-[20px] rounded-lg bg-[#e76a44] text-[white] h-[60px] hover:bg-white hover:text-[black]">
-            Get in Touch
+        <div className="mt-10 ">
+          <button onClick={onclick} className="lg:w-[80%] md:w-[80%] sm:w-[100%]  font-semibold text-[20px] rounded-lg bg-[#e76a44] text-[white] h-[60px] hover:bg-white hover:text-[black]">
+            Get In Touch
           </button>
         </div>
       </div>

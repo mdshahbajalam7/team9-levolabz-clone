@@ -75,9 +75,11 @@ export default function Product ({onclick}) {
             </div>
           ))}
         </div>
-        <button onClick={onclick} className="px-8 mt-8 font-semibold text-[20px] rounded-lg bg-[#e76a44] text-[white] h-[60px] hover:bg-[#e8f1e8] hover:text-black">
-                  Get in Touch
+        <div className='flex justify-center'>
+        <button onClick={onclick} className="px-8 py-3 mt-8 font-semibold text-[20px] rounded-lg bg-[#e76a44] text-[white] h-[60px] hover:bg-[#e8f1e8] hover:text-black">
+                  Get In Touch
         </button>
+        </div>
       </div>
     </div>
   );
