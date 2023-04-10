@@ -47,7 +47,7 @@ const Testimonials = () => {
       
     >
       <h1 className="text-center lg:text-[30px] md:text-[25px] sm:text-[25px]">
-        What Our clients says about us
+       Testimonials
       </h1>
       <Marquee
         gradient={false}

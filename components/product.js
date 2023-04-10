@@ -45,9 +45,7 @@ export default function Product ({onclick}) {
         <div className="mt-10 text-center font-semibold">
           <h1 className="text-[35px]">
             {" "}
-            Our{" "}
-            Best{" "}
-            Projects
+            Portfolio
           </h1>
         </div>
         <div className="grid lg:grid-cols-2 gap-6 md:grid md:grid-cols-1 grid-cols-1 mt-10 ">
