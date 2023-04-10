@@ -92,7 +92,7 @@ export default function Navbar({onclick,onClicks,serv,work}) {
           </div>
         </div>
         {nav && (
-          <div className="absolute bg-white sm:w-[94%] md:w-[96%] w-full overflow-y-scroll">
+          <div className="absolute bg-[#ea8060] sm:w-[94%] md:w-[96%] w-full overflow-y-scroll">
             <div className="flex flex-col px-3 gap-[10px] mt-4">
               <button className="border border-[#ea8060] rounded-md py-3 font-semibold text-lg text-[#ea8060]">
                 See Our Projects

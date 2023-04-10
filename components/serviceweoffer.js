@@ -27,7 +27,7 @@ export default function Serviceweoffer({onclick}) {
               />
               </div>
               <h3 className="font-semibold text-xl  py-4 px-4">{el.title}</h3>
-              <p className="w-[90%] text-base text-justify m-auto pb-4">{el.desc}</p>
+              {/* <p className="w-[90%] text-base text-justify m-auto pb-4">{el.desc}</p> */}
             </div>
           );
         })}

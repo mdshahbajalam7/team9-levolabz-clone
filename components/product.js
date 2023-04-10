@@ -4,28 +4,28 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 const products = [
   {
-    name: "Esptruck.com",
+    name: "esptruck.com",
     description:
       "ESP Truck Accessories is a family-owned business founded in 2015 with our goal in offering Under Seat Storage Units to help increase your truck storage space. We custom design lockable and unlockable storage units to form fit under your back seat and out of the way without interfering with your seat",
     image:
       "https://user-images.githubusercontent.com/98772205/226087258-cf1f6e44-0cb0-40aa-acb4-211b9f2dfd53.jpg",
   },
   {
-    name: "Fanplans.com",
+    name: "fanplans.com",
     description:
       "Fanplans creating a community for fans of pretty much everything live event related.  It's sole purpose is to make it easier for you to book your next experience all in one site. They partnered with the best-of-the-best from hotels to shuttles and home rentals.",
     image:
       "https://user-images.githubusercontent.com/98772205/226087273-8f2d4022-9268-4ba2-b15b-05728963e67a.jpg",
   },
   {
-    name: "Fanzartfans.com",
+    name: "fanzartfans.com",
     description:
       "Fanzart is your one-stop destination for premium designer fans in India. With extensive experience in crafting designer fans that are a blend of functionality and aesthetics inspired by various elements.",
     image:
       "https://user-images.githubusercontent.com/98772205/226087294-99757d60-9f84-41bb-88ad-25a7cc1a06a6.jpg",
   },
   {
-    name: "Karmeq.com",
+    name: "karmeq.com",
     description:
       "Karmeq is a member of FINRA and SIPC. All investments involve risk, including the possible loss of capital. Past performance of a security, market, or financial product does not guarantee future results",
     image:
