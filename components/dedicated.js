@@ -22,9 +22,12 @@ export default function Dedicated() {
           <h1 className="text-4xl font-semibold leading-normal md:text-3xl sm:text-2xl">
           {e.title}
           </h1>
-          <p className="pt-5 text-lg lg:w-[78%]">
-          {e.Desc}
-          </p>
+          <ol className="pt-5 text-lg lg:w-[78%]" type="1">
+              <li>{e.txt1}</li>
+              <li>{e.txt2}</li>
+              <li>{e.txt3}</li>
+              <li>{e.txt4}</li>
+          </ol>
         </div>
         </div>
             )

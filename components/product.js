@@ -2,9 +2,12 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useRouter } from "next/router";
+
 const products = [
   {
     name: "esptruck.com",
+    path:"https://esptruck.com/",
     description:
       "ESP Truck Accessories is a family-owned business founded in 2015 with our goal in offering Under Seat Storage Units to help increase your truck storage space. We custom design lockable and unlockable storage units to form fit under your back seat and out of the way without interfering with your seat",
     image:
@@ -12,6 +15,7 @@ const products = [
   },
   {
     name: "fanplans.com",
+    path:"https://www.fanplans.com/",
     description:
       "Fanplans creating a community for fans of pretty much everything live event related.  It's sole purpose is to make it easier for you to book your next experience all in one site. They partnered with the best-of-the-best from hotels to shuttles and home rentals.",
     image:
@@ -19,6 +23,7 @@ const products = [
   },
   {
     name: "fanzartfans.com",
+    path:"https://fanzartfans.com/",
     description:
       "Fanzart is your one-stop destination for premium designer fans in India. With extensive experience in crafting designer fans that are a blend of functionality and aesthetics inspired by various elements.",
     image:
@@ -26,6 +31,7 @@ const products = [
   },
   {
     name: "karmeq.com",
+    path:"https://www.karmeq.com/",
     description:
       "Karmeq is a member of FINRA and SIPC. All investments involve risk, including the possible loss of capital. Past performance of a security, market, or financial product does not guarantee future results",
     image:
@@ -34,6 +40,7 @@ const products = [
 ];
 
 export default function Product ({onclick}) {
+  const router = useRouter();
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -63,9 +70,9 @@ export default function Product ({onclick}) {
                 width={500}
                 height={500}
               />
-              <div className="mt-4 font-semibold">
+              <div className="mt-4 font-semibold cursor-pointer" onClick={() => router.push(product.path)}>
                 <h3 className="text-center text-[25px]">{product.name}</h3>
-                <p className="text-[16px] mt-2">{product.description}</p>
+                {/* <p className="text-[16px] mt-2">{product.description}</p> */}
               </div>
               <div className="mt-5">
                 

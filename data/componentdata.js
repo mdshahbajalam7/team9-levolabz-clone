@@ -22,8 +22,11 @@ const heroSectionData = [
 
 export const smallSectionData =[
     {
-        title:"Levo is Latin for elevate",
-        Desc:"Levo Labz is a software company that elevates your product approach, takes over your product and technology needs so that you can focus on your business value and how to bring it to market.",
+        title:"At Levo Labz we take over your technology goals so that you can focus on your business! We offer:",
+        txt1:"1. Software development",
+        txt2:"2. Staff Augmentation",
+        txt3:"3. Consulting",
+        txt4:"4. CTO as a Service",
         Img:"https://d2mk45aasx86xg.cloudfront.net/graph_be4a9cff45.svg"
     }
 
